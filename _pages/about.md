@@ -2,33 +2,54 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "Professor of [Computer Science](https://www.cs.pitt.edu), [University of Pittsburgh](https://www.pitt.edu)"
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>6101 Sennott Square</p>
+    <p>210 S. Bouquet Street</p>
+    <p>Pittsburgh, PA 15260</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Professor of [Computer Science](https://www.cs.pitt.edu) at the 
+University of Pittsburgh, where I have been since 2002 — long enough to 
+watch "data mining" rebrand itself three times.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research sits at the intersection of data management, data science, and 
+artificial intelligence, with a focus on real-time data streams, smart cities, 
+and novel database architectures. I build systems to experiment with and 
+validate new algorithms and ideas. (By "I," I mean my students — I mostly 
+provide the coffee and the deadlines.) I co-direct the 
+[Advanced Data Management Technologies (ADMT) Laboratory](https://db.cs.pitt.edu/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I teach data science to undergraduates and applied predictive modeling to 
+working professionals through Pitt's online 
+[Master's of Data Science](https://www.sci.pitt.edu/MDS) program on Coursera. 
+I also served a term as department chair, which taught me that 
+managing faculty is harder than any optimization problem I've encountered.
+
+Currently, I am responsibly bringing AI into my courses, streamlining 
+experimental research projects, and working on detecting prompt-based 
+text-to-SQL injection attacks. I just started posting on 
+[medium.com](https://medium.com/@labrinidis)
+
+My full name is Alexandros Labrinidis — it comes from Greece, where I am 
+originally from, though I have called the US home for over 30 years. If you 
+are interested in joining the lab, please read the [FAQ](/contact/) before 
+reaching out.
