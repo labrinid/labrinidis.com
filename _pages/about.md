@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Professor of [Computer Science](https://www.cs.pitt.edu), [University of Pittsburgh](https://www.pitt.edu)"
+subtitle: Professor of Computer Science, University of Pittsburgh
 
 profile:
   align: right
