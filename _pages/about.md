@@ -44,11 +44,6 @@ working professionals through Pitt's online
 I also served a term as department chair, which taught me that 
 managing faculty is harder than any optimization problem I've encountered.
 
-Currently, I am responsibly bringing AI into my courses, streamlining 
-experimental research projects, and working on detecting prompt-based 
-text-to-SQL injection attacks. I just started posting on 
-[medium.com](https://medium.com/@labrinidis)
-
 My full name is Alexandros Labrinidis — it comes from Greece, where I am 
 originally from, though I have called the US home for over 30 years. If you 
 are interested in joining the lab, please read the [FAQ](/contact/) before 
