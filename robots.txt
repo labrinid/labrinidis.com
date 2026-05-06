@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://labrinid.github.io/labrinidis.com/sitemap.xml
+Sitemap: https://labrinidis.com//sitemap.xml
