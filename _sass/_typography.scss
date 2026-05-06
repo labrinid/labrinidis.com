@@ -51,14 +51,12 @@ table.table a {
 
 // Option C: remove underline from nav, buttons, badges, and labels
 // where context makes interactivity clear without underline
-nav a,
+.navbar-nav a,
 .navbar a,
-.nav-item a,
 .btn,
 .badge a,
 .social a,
 .pagination a,
-.card-title a,
 footer a {
   text-decoration: none;
   &:hover {
