@@ -429,16 +429,44 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-admt-lab-research-internships-spring-2023",
+          title: 'ADMT Lab Research Internships (Spring 2023)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-12-21-admt-lab-internships-spring-2023/";
+            },},{id: "news-teaching-introduction-to-data-science-in-the-spring-2023-term",
+          title: 'Teaching Introduction to Data Science in the Spring 2023 term',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-12-22-teaching-intro-data-science/";
+            },},{id: "news-our-big-data-paper-surpasses-25-000-downloads",
+          title: 'Our Big Data paper surpasses 25,000 downloads',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-01-03-big-data-paper-25k-downloads/";
+            },},{id: "news-new-website-up-and-running",
+          title: 'New website up and running',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-01-11-new-website/";
+            },},{id: "news-recognized-as-an-ieee-computer-society-distinguished-contributor",
+          title: 'Recognized as an IEEE Computer Society Distinguished Contributor',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-02-28-ieee-distinguished-contributor/";
+            },},{id: "news-serving-as-a-senior-pc-member-at-the-43rd-ieee-international-conference-on-data-engineering-icde-2027",
+          title: 'Serving as a Senior PC Member at the 43rd IEEE International Conference on...',
+          description: "",
+          section: "News",},{id: "news-",
+          title: '',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
