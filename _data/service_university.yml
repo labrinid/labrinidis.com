@@ -3,13 +3,13 @@ university:
     years: 2023–present
     selected: true
 
-  - role: Member, Information Technology Advisory Committee
-    years: 2020–2022
-    selected: false
-
   - role: Elected Member, University Senate
     years: 2015–2017, 2018–2023
     selected: true
+
+  - role: Member, Information Technology Advisory Committee
+    years: 2020–2022
+    selected: false
 
   - role: Elected Member, Faculty Assembly
     years: 2014–2023
@@ -31,16 +31,7 @@ university:
     years: 2009–2011
     selected: false
 
-school:
-  - role: Chair, SCI Web Vision Committee
-    years: 2019–2020
-    selected: false
-
-  - role: Member, Faculty Recruiting Committee
-    years: 2017–2019
-    selected: false
-
-department:
+school_and_department:
   - role: Department Chair
     years: 2020–2022
     selected: true
@@ -55,6 +46,14 @@ department:
 
   - role: Chair, Department Colloquium Committee
     years: 2023–2024
+    selected: false
+
+  - role: Chair, SCI Web Vision Committee
+    years: 2019–2020
+    selected: false
+
+  - role: Member, Faculty Recruiting Committee (School)
+    years: 2017–2019
     selected: false
 
   - role: Co-Chair, Graduate Program & Exams Committee
@@ -73,7 +72,7 @@ department:
     years: 2003–2005
     selected: false
 
-  - role: Member, Faculty Recruiting Committee
+  - role: Member, Faculty Recruiting Committee (Department)
     years: 2006–2007, 2014–2015
     selected: false
 

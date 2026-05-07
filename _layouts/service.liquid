@@ -9,9 +9,6 @@ layout: page
     {% assign university = site.data.service_university %}
     {% assign show_all = page.show_all %}
 
-    <!-- External / Community Service -->
-    <h2>External Service</h2>
-
     {% for category in community %}
       {% assign cat_name = category[0] | replace: '_', ' ' | capitalize %}
       {% assign cat_items = category[1] %}
@@ -32,7 +29,7 @@ layout: page
               <td style="width:12%; white-space:nowrap;">
                 {% if item.year %}{{ item.year }}{% elsif item.years %}{{ item.years }}{% endif %}
               </td>
-              <td style="width:25%">{{ item.role }}</td>
+              <td style="width:28%">{{ item.role }}</td>
               <td>
                 {% if item.url %}
                   <a href="{{ item.url }}" target="_blank">{{ item.venue }}</a>
@@ -49,9 +46,6 @@ layout: page
         </table>
       {% endif %}
     {% endfor %}
-
-    <!-- University Service -->
-    <h2>University Service</h2>
 
     {% for category in university %}
       {% assign cat_name = category[0] | replace: '_', ' ' | capitalize %}
@@ -78,7 +72,6 @@ layout: page
       {% endif %}
     {% endfor %}
 
-    <!-- Link to other view -->
     <hr>
     {% if show_all %}
       <p><a href="/service/">← Back to selected service activities</a></p>
