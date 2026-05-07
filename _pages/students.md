@@ -1,6 +1,6 @@
 ---
 layout: students
-title: Students
+title: students
 permalink: /students/
 description: Current and past students advised by Alexandros Labrinidis.
 nav: true
