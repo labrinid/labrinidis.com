@@ -2,14 +2,27 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+I have been teaching at the University of Pittsburgh since 2002, covering
+database systems, data science, and distributed systems at both undergraduate
+and graduate levels.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+For current course materials, schedules, and assignments please refer to
+the individual course page and Canvas.
 
-{% include courses.liquid %}
+## Current Courses
+
+{% assign current_courses = site.teachings | where: "current", true %}
+{% for course in current_courses %}
+- [{{ course.course_number }} — {{ course.title }}]({{ course.permalink }}) *({{ course.term }} {{ course.year }})*
+{% endfor %}
+
+## Past Courses
+
+{% assign past_courses = site.teachings | where: "current", false %}
+{% for course in past_courses %}
+- {{ course.course_number }} — {{ course.title }}
+{% endfor %}
