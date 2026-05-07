@@ -1,0 +1,114 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {{ content }}
+
+    {% assign community = site.data.service_community %}
+    {% assign university = site.data.service_university %}
+
+    <!-- External / Community Service -->
+    <h2>External Service</h2>
+
+    {% for category in community %}
+      {% assign cat_name = category[0] | replace: '_', ' ' | capitalize %}
+      {% assign cat_data = category[1] %}
+
+      {% if cat_data.active or cat_data.past %}
+        <h3>{{ cat_name }}</h3>
+
+        {% if cat_data.active %}
+          <h4>Active</h4>
+          <table class="table table-sm">
+            <tbody>
+              {% for item in cat_data.active %}
+              <tr>
+                <td style="width:15%">{{ item.years }}</td>
+                <td style="width:20%"><strong>{{ item.role }}</strong></td>
+                <td>
+                  {% if item.url %}
+                    <a href="{{ item.url }}" target="_blank">{{ item.venue }}</a>
+                  {% else %}
+                    {{ item.venue }}
+                  {% endif %}
+                  {% if item.full_name %}
+                    <br><small class="text-muted">{{ item.full_name }}</small>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% endif %}
+
+        {% if cat_data.past and cat_data.past.size > 0 %}
+          <h4>Past</h4>
+          <table class="table table-sm">
+            <tbody>
+              {% for item in cat_data.past %}
+              <tr>
+                <td style="width:15%">{{ item.years }}</td>
+                <td style="width:20%"><strong>{{ item.role }}</strong></td>
+                <td>
+                  {% if item.url %}
+                    <a href="{{ item.url }}" target="_blank">{{ item.venue }}</a>
+                  {% else %}
+                    {{ item.venue }}
+                  {% endif %}
+                  {% if item.full_name %}
+                    <br><small class="text-muted">{{ item.full_name }}</small>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+
+    <!-- University Service -->
+    <h2>University Service</h2>
+
+    {% for category in university %}
+      {% assign cat_name = category[0] | replace: '_', ' ' | capitalize %}
+      {% assign cat_data = category[1] %}
+
+      {% if cat_data.active or cat_data.past %}
+        <h3>{{ cat_name }}</h3>
+
+        {% if cat_data.active %}
+          <h4>Active</h4>
+          <table class="table table-sm">
+            <tbody>
+              {% for item in cat_data.active %}
+              <tr>
+                <td style="width:15%">{{ item.years }}</td>
+                <td><strong>{{ item.role }}</strong></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% endif %}
+
+        {% if cat_data.past and cat_data.past.size > 0 %}
+          <h4>Past</h4>
+          <table class="table table-sm">
+            <tbody>
+              {% for item in cat_data.past %}
+              <tr>
+                <td style="width:15%">{{ item.years }}</td>
+                <td><strong>{{ item.role }}</strong></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+
+  </article>
+</div>

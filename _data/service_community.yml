@@ -1,0 +1,21 @@
+program_committees:
+  active:
+    - role: Senior PC Member
+      venue: ICDE 2027
+      full_name: 43rd IEEE International Conference on Data Engineering
+      url: https://icde2027.github.io
+      years: 2026–2027
+
+    - role: PC Member
+      venue: HDMS 2026
+      full_name: 20th Hellenic Data Management Symposium
+      url: https://acmsigmod.gr/hdms/2026/
+      years: 2026
+
+    - role: PC Member
+      venue: VLDB 2027
+      full_name: 53rd International Conference on Very Large Databases
+      url: https://vldb.org/2027/
+      years: 2026–2027
+
+  past:
