@@ -36,9 +36,9 @@ layout: page
                     {{ student.name }}
                   {% endif %}
                 </p>
-                {% if student.since %}
-                  <p class="text-muted small mb-0">Since {{ student.since }}</p>
-                {% endif %}
+				{% if student.expected %}
+				  <p class="text-muted small mb-0">Expected {{ student.expected }}</p>
+				{% endif %}
               </div>
             </div>
           </div>
@@ -60,7 +60,6 @@ layout: page
               <th>Name</th>
               <th>Graduated</th>
               <th>Thesis</th>
-              <th>Placement</th>
             </tr>
           </thead>
           <tbody>
@@ -78,6 +77,9 @@ layout: page
                 {% if student.thesis %}
                   <em>{{ student.thesis }}</em>
                 {% endif %}
+			    {% if student.coadvisor %}
+			      <br><small class="text-muted">Co-advised with {{ student.coadvisor }}</small>
+			    {% endif %}
               </td>
               <td>{{ student.placement }}</td>
             </tr>
@@ -94,7 +96,6 @@ layout: page
               <th>Name</th>
               <th>Graduated</th>
               <th>Thesis</th>
-              <th>Placement</th>
             </tr>
           </thead>
           <tbody>
