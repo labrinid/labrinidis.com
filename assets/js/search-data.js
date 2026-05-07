@@ -45,7 +45,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-students",
-          title: "Students",
+          title: "students",
           description: "Current and past students advised by Alexandros Labrinidis.",
           section: "Navigation",
           handler: () => {
