@@ -7,65 +7,46 @@ layout: page
 
     {% assign community = site.data.service_community %}
     {% assign university = site.data.service_university %}
+    {% assign show_all = page.show_all %}
 
     <!-- External / Community Service -->
     <h2>External Service</h2>
 
     {% for category in community %}
       {% assign cat_name = category[0] | replace: '_', ' ' | capitalize %}
-      {% assign cat_data = category[1] %}
+      {% assign cat_items = category[1] %}
 
-      {% if cat_data.active or cat_data.past %}
+      {% if show_all %}
+        {% assign items = cat_items %}
+      {% else %}
+        {% assign items = cat_items | where: "selected", true %}
+      {% endif %}
+
+      {% if items.size > 0 %}
         <h3>{{ cat_name }}</h3>
-
-        {% if cat_data.active %}
-          <h4>Active</h4>
-          <table class="table table-sm">
-            <tbody>
-              {% for item in cat_data.active %}
-              <tr>
-                <td style="width:15%">{{ item.years }}</td>
-                <td style="width:20%"><strong>{{ item.role }}</strong></td>
-                <td>
-                  {% if item.url %}
-                    <a href="{{ item.url }}" target="_blank">{{ item.venue }}</a>
-                  {% else %}
-                    {{ item.venue }}
-                  {% endif %}
-                  {% if item.full_name %}
-                    <br><small class="text-muted">{{ item.full_name }}</small>
-                  {% endif %}
-                </td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        {% endif %}
-
-        {% if cat_data.past and cat_data.past.size > 0 %}
-          <h4>Past</h4>
-          <table class="table table-sm">
-            <tbody>
-              {% for item in cat_data.past %}
-              <tr>
-                <td style="width:15%">{{ item.years }}</td>
-                <td style="width:20%"><strong>{{ item.role }}</strong></td>
-                <td>
-                  {% if item.url %}
-                    <a href="{{ item.url }}" target="_blank">{{ item.venue }}</a>
-                  {% else %}
-                    {{ item.venue }}
-                  {% endif %}
-                  {% if item.full_name %}
-                    <br><small class="text-muted">{{ item.full_name }}</small>
-                  {% endif %}
-                </td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        {% endif %}
-
+        <table class="table table-sm">
+          <tbody>
+            {% assign sorted_items = items | sort: "year" | reverse %}
+            {% for item in sorted_items %}
+            <tr>
+              <td style="width:12%; white-space:nowrap;">
+                {% if item.year %}{{ item.year }}{% elsif item.years %}{{ item.years }}{% endif %}
+              </td>
+              <td style="width:25%">{{ item.role }}</td>
+              <td>
+                {% if item.url %}
+                  <a href="{{ item.url }}" target="_blank">{{ item.venue }}</a>
+                {% else %}
+                  {{ item.venue }}
+                {% endif %}
+                {% if item.full_name %}
+                  <br><small class="text-muted">{{ item.full_name }}</small>
+                {% endif %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       {% endif %}
     {% endfor %}
 
@@ -74,41 +55,36 @@ layout: page
 
     {% for category in university %}
       {% assign cat_name = category[0] | replace: '_', ' ' | capitalize %}
-      {% assign cat_data = category[1] %}
+      {% assign cat_items = category[1] %}
 
-      {% if cat_data.active or cat_data.past %}
+      {% if show_all %}
+        {% assign items = cat_items %}
+      {% else %}
+        {% assign items = cat_items | where: "selected", true %}
+      {% endif %}
+
+      {% if items.size > 0 %}
         <h3>{{ cat_name }}</h3>
-
-        {% if cat_data.active %}
-          <h4>Active</h4>
-          <table class="table table-sm">
-            <tbody>
-              {% for item in cat_data.active %}
-              <tr>
-                <td style="width:15%">{{ item.years }}</td>
-                <td><strong>{{ item.role }}</strong></td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        {% endif %}
-
-        {% if cat_data.past and cat_data.past.size > 0 %}
-          <h4>Past</h4>
-          <table class="table table-sm">
-            <tbody>
-              {% for item in cat_data.past %}
-              <tr>
-                <td style="width:15%">{{ item.years }}</td>
-                <td><strong>{{ item.role }}</strong></td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        {% endif %}
-
+        <table class="table table-sm">
+          <tbody>
+            {% for item in items %}
+            <tr>
+              <td style="width:12%; white-space:nowrap;">{{ item.years }}</td>
+              <td>{{ item.role }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       {% endif %}
     {% endfor %}
+
+    <!-- Link to other view -->
+    <hr>
+    {% if show_all %}
+      <p><a href="/service/">← Back to selected service activities</a></p>
+    {% else %}
+      <p><a href="/service/full/">View complete service record →</a></p>
+    {% endif %}
 
   </article>
 </div>

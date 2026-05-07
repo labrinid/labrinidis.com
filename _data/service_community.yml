@@ -1,21 +1,497 @@
+editorial_boards:
+  - role: Associate Editor
+    venue: VLDB Journal
+    full_name: The VLDB Journal
+    years: 2015–2019
+    selected: true
+
+  - role: Associate Editor
+    venue: Distributed and Parallel Databases
+    full_name: Distributed and Parallel Databases, Springer
+    years: 2014–2020
+    selected: true
+
+  - role: Editor-in-Chief
+    venue: ACM SIGMOD Record
+    years: 2007–2010
+    selected: true
+
+  - role: Associate Editor
+    venue: ACM SIGMOD Record
+    years: 2001–2006
+    selected: false
+
+professional_organizations:
+  - role: Secretary/Treasurer
+    venue: ACM SIGMOD
+    years: 2009–2013
+    selected: true
+
+  - role: Member, Executive Committee
+    venue: ACM SIGMOD
+    years: 2004–2013
+    selected: false
+
+  - role: Associate Information Director
+    venue: ACM SIGMOD
+    years: 2007–2013
+    selected: false
+
+  - role: Information Director
+    venue: ACM SIGMOD
+    years: 2004–2006
+    selected: false
+
+advisory_boards:
+  - role: Member
+    venue: Pittsburgh Data Works
+    years: 2013–2016
+    selected: false
+
+  - role: Member
+    venue: TLI — Technology Leadership Initiative, University of Pittsburgh
+    years: 2009–2010
+    selected: false
+
+  - role: Member
+    venue: SSEI — Sensor Science Engineering and Informatics NSF IGERT, University of Maine
+    years: 2007–2008
+    selected: false
+
+steering_committees:
+  - role: Member
+    venue: WebDB
+    full_name: International ACM Workshop on the Web and Databases
+    years: 2009–2012
+    selected: false
+
+  - role: Member
+    venue: DMSN
+    full_name: International Workshop on Data Management for Sensor Networks
+    years: 2006–2011
+    selected: false
+
+  - role: Member
+    venue: MobiDE
+    full_name: International ACM Workshop on Data Engineering for Wireless and Mobile Access
+    years: 2006–2009
+    selected: false
+
+  - role: Member
+    venue: NIH/DISC
+    full_name: NIH-NIAID Data Interoperability Steering Committee
+    years: 2007–2011
+    selected: false
+
+  - role: Member
+    venue: BPOE
+    full_name: Workshop on Big Data Benchmarks, Performance Optimization, and Emerging Hardware
+    years: 2013–2014
+    selected: false
+
+  - role: Member
+    venue: RFDM
+    full_name: International Workshop on RFID Data Management
+    years: 2007–2008
+    selected: false
+
+organizational_roles:
+  - role: Area Chair
+    venue: ICDE 2024
+    full_name: 40th IEEE International Conference on Data Engineering
+    year: 2024
+    selected: true
+
+  - role: Associate Editor
+    venue: SIGMOD 2022
+    full_name: ACM SIGMOD/PODS Conference
+    year: 2022
+    selected: true
+
+  - role: Demo Track Co-Chair
+    venue: CIKM 2018
+    full_name: ACM CIKM Conference
+    year: 2018
+    selected: true
+
+  - role: Tutorials Chair
+    venue: SIGMOD 2016
+    full_name: ACM SIGMOD/PODS Conference
+    year: 2016
+    selected: true
+
+  - role: PC Group Leader
+    venue: SIGMOD 2015
+    full_name: ACM SIGMOD/PODS Conference
+    year: 2015
+    selected: false
+
+  - role: PC Track Chair
+    venue: ICDE 2014
+    full_name: 30th IEEE International Conference on Data Engineering
+    year: 2014
+    selected: true
+
+  - role: Tutorials Chair
+    venue: ICDE 2013
+    full_name: 29th IEEE International Conference on Data Engineering
+    year: 2013
+    selected: false
+
+  - role: PC Co-Chair
+    venue: SMDB 2013
+    full_name: 8th International Workshop on Self-Managing Database Systems
+    year: 2013
+    selected: false
+
+  - role: PC Chair
+    venue: HDMS 2011
+    full_name: 10th Hellenic Data Management Symposium
+    year: 2011
+    selected: false
+
+  - role: General Co-Chair
+    venue: SEEDM 2011
+    full_name: NSF Workshop on Sustainable, Energy-Efficient Data Management
+    year: 2011
+    selected: false
+
+  - role: PC Co-Chair
+    venue: WebDB 2009
+    full_name: 12th International Workshop on the Web and Databases
+    year: 2009
+    selected: false
+
+  - role: PC Co-Chair
+    venue: GSN 2006
+    full_name: Second International Geosensors Conference
+    year: 2006
+    selected: false
+
+  - role: General Co-Chair
+    venue: MobiDE 2006
+    full_name: Fifth International ACM Workshop on Data Engineering for Wireless and Mobile Access
+    year: 2006
+    selected: false
+
+  - role: General Co-Chair
+    venue: DMSN 2006
+    full_name: Third International Workshop on Data Management for Sensor Networks
+    year: 2006
+    selected: false
+
+  - role: PC Co-Chair
+    venue: DMSN 2005
+    full_name: Second International Workshop on Data Management for Sensor Networks
+    year: 2005
+    selected: false
+
+  - role: PC Co-Chair
+    venue: MobiDE 2005
+    full_name: Fourth International ACM Workshop on Data Engineering for Wireless and Mobile Access
+    year: 2005
+    selected: false
+
+  - role: PC Co-Chair
+    venue: DMSN 2004
+    full_name: First International Workshop on Data Management for Sensor Networks
+    year: 2004
+    selected: false
+
+  - role: PC Co-Chair
+    venue: IDM 2004
+    full_name: Track on Internet Data Management, 19th ACM Symposium on Applied Computing
+    year: 2004
+    selected: false
+
 program_committees:
-  active:
-    - role: Senior PC Member
-      venue: ICDE 2027
-      full_name: 43rd IEEE International Conference on Data Engineering
-      url: https://icde2027.github.io
-      years: 2026–2027
+  - role: Senior PC Member
+    venue: ICDE 2027
+    full_name: 43rd IEEE International Conference on Data Engineering
+    url: https://icde2027.github.io
+    year: 2027
+    selected: true
 
-    - role: PC Member
-      venue: HDMS 2026
-      full_name: 20th Hellenic Data Management Symposium
-      url: https://acmsigmod.gr/hdms/2026/
-      years: 2026
+  - role: PC Member
+    venue: VLDB 2027
+    full_name: 53rd International Conference on Very Large Databases
+    url: https://vldb.org/2027/
+    year: 2027
+    selected: true
 
-    - role: PC Member
-      venue: VLDB 2027
-      full_name: 53rd International Conference on Very Large Databases
-      url: https://vldb.org/2027/
-      years: 2026–2027
+  - role: PC Member
+    venue: HDMS 2026
+    full_name: 20th Hellenic Data Management Symposium
+    url: https://acmsigmod.gr/hdms/2026/
+    year: 2026
+    selected: true
 
-  past:
+  - role: PC Member
+    venue: EDBT 2023
+    full_name: International Conference on Extending Database Technology
+    year: 2023
+    selected: false
+
+  - role: PC Member
+    venue: BigData 2023
+    full_name: IEEE BigData Conference
+    year: 2023
+    selected: false
+
+  - role: PC Member
+    venue: EDBT 2021
+    full_name: International Conference on Extending Database Technology
+    year: 2021
+    selected: false
+
+  - role: Research Track PC Member
+    venue: SIGMOD 2020
+    full_name: ACM SIGMOD International Conference on Management of Data
+    year: 2020
+    selected: false
+
+  - role: PC Member
+    venue: BigData 2019
+    full_name: IEEE BigData Conference
+    year: 2019
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2018
+    full_name: Hellenic Data Management Symposium
+    year: 2018
+    selected: false
+
+  - role: Research Track PC Member
+    venue: VLDB 2017
+    full_name: International Conference on Very Large Databases
+    year: 2017
+    selected: false
+
+  - role: Research Track PC Member
+    venue: SIGMOD 2017
+    full_name: ACM SIGMOD International Conference on Management of Data
+    year: 2017
+    selected: false
+
+  - role: PC Member
+    venue: BigData 2016
+    full_name: IEEE BigData Conference
+    year: 2016
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2016
+    full_name: Hellenic Data Management Symposium
+    year: 2016
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2015
+    full_name: Hellenic Data Management Symposium
+    year: 2015
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2014
+    full_name: Hellenic Data Management Symposium
+    year: 2014
+    selected: false
+
+  - role: PC Member
+    venue: EDBT 2014
+    full_name: International Conference on Extending Database Technology
+    year: 2014
+    selected: false
+
+  - role: Research Track PC Member
+    venue: SIGMOD 2014
+    full_name: ACM SIGMOD International Conference on Management of Data
+    year: 2014
+    selected: false
+
+  - role: Research Track PC Member
+    venue: SIGMOD 2012
+    full_name: ACM SIGMOD International Conference on Management of Data
+    year: 2012
+    selected: false
+
+  - role: PhD Symposium PC Member
+    venue: SIGMOD 2012
+    full_name: ACM SIGMOD International Conference on Management of Data
+    year: 2012
+    selected: false
+
+  - role: Demonstration Track PC Member
+    venue: VLDB 2012
+    full_name: International Conference on Very Large Databases
+    year: 2012
+    selected: false
+
+  - role: SSDBM 2012
+    venue: SSDBM 2012
+    full_name: International Conference on Scientific and Statistical Database Management
+    year: 2012
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2012
+    full_name: Hellenic Data Management Symposium
+    year: 2012
+    selected: false
+
+  - role: Research Track PC Member
+    venue: SIGMOD 2011
+    full_name: ACM SIGMOD International Conference on Management of Data
+    year: 2011
+    selected: false
+
+  - role: Research Track PC Member
+    venue: VLDB 2010
+    full_name: International Conference on Very Large Databases
+    year: 2010
+    selected: false
+
+  - role: PC Member
+    venue: MDM 2010
+    full_name: International Conference on Mobile Data Management
+    year: 2010
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2010
+    full_name: Hellenic Data Management Symposium
+    year: 2010
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2009
+    full_name: Hellenic Data Management Symposium
+    year: 2009
+    selected: false
+
+  - role: PC Member
+    venue: EDBT 2010
+    full_name: International Conference on Extending Database Technology
+    year: 2010
+    selected: false
+
+  - role: Research Track PC Member
+    venue: VLDB 2008
+    full_name: International Conference on Very Large Databases
+    year: 2008
+    selected: false
+
+  - role: PC Member
+    venue: EDBT 2008
+    full_name: International Conference on Extending Database Technology
+    year: 2008
+    selected: false
+
+  - role: PC Member
+    venue: MDM 2007
+    full_name: International Conference on Mobile Data Management
+    year: 2007
+    selected: false
+
+  - role: Research Track PC Member
+    venue: VLDB 2007
+    full_name: International Conference on Very Large Databases
+    year: 2007
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2007
+    full_name: Hellenic Data Management Symposium
+    year: 2007
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2011
+    full_name: IEEE International Conference on Data Engineering
+    year: 2011
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2010
+    full_name: IEEE International Conference on Data Engineering
+    year: 2010
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2009
+    full_name: IEEE International Conference on Data Engineering
+    year: 2009
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2008
+    full_name: IEEE International Conference on Data Engineering
+    year: 2008
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2007
+    full_name: IEEE International Conference on Data Engineering
+    year: 2007
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2006
+    full_name: IEEE International Conference on Data Engineering
+    year: 2006
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2005
+    full_name: IEEE International Conference on Data Engineering
+    year: 2005
+    selected: false
+
+  - role: PC Member
+    venue: ICDE 2004
+    full_name: IEEE International Conference on Data Engineering
+    year: 2004
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2008
+    full_name: Hellenic Data Management Symposium
+    year: 2008
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2006
+    full_name: Hellenic Data Management Symposium
+    year: 2006
+    selected: false
+
+  - role: PC Member
+    venue: HDMS 2005
+    full_name: Hellenic Data Management Symposium
+    year: 2005
+    selected: false
+
+  - role: PC Member
+    venue: EDBT 2004
+    full_name: International Conference on Extending Database Technology
+    year: 2004
+    selected: false
+
+  - role: PC Member
+    venue: CIKM 2004
+    full_name: ACM Conference on Information and Knowledge Management
+    year: 2004
+    selected: false
+
+  - role: Demonstration Track PC Member
+    venue: SIGMOD 2004
+    full_name: ACM SIGMOD International Conference on Management of Data
+    year: 2004
+    selected: false
+
+  - role: Research Track PC Member
+    venue: ICDE 2016
+    full_name: IEEE International Conference on Data Engineering
+    year: 2016
+    selected: false

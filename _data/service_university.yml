@@ -1,16 +1,90 @@
-department:
-  active:
-    - role: Chair, Institutional Data Review Committee
-      years: 2025–present
+university:
+  - role: Chair, Institutional Data Review Committee
+    years: 2023–present
+    selected: true
 
-  past:
+  - role: Member, Information Technology Advisory Committee
+    years: 2020–2022
+    selected: false
+
+  - role: Elected Member, University Senate
+    years: 2015–2017, 2018–2023
+    selected: true
+
+  - role: Elected Member, Faculty Assembly
+    years: 2014–2023
+    selected: false
+
+  - role: Co-Chair, Senate Computer Usage Committee
+    years: 2009–2014
+    selected: false
+
+  - role: Elected Member, Senate Computer Usage Committee
+    years: 2008–2014, 2019–2022
+    selected: false
+
+  - role: Member, Information Technology Steering Committee
+    years: 2009–2014
+    selected: false
+
+  - role: Member, Council on Academic Computing
+    years: 2009–2011
+    selected: false
 
 school:
-  active:
+  - role: Chair, SCI Web Vision Committee
+    years: 2019–2020
+    selected: false
 
-  past:
+  - role: Member, Faculty Recruiting Committee
+    years: 2017–2019
+    selected: false
 
-university:
-  active:
+department:
+  - role: Department Chair
+    years: 2020–2022
+    selected: true
 
-  past:
+  - role: Director of Graduate Studies
+    years: 2019
+    selected: false
+
+  - role: Chair, Web/Publicity Committee
+    years: 2023–2024
+    selected: false
+
+  - role: Chair, Department Colloquium Committee
+    years: 2023–2024
+    selected: false
+
+  - role: Co-Chair, Graduate Program & Exams Committee
+    years: 2007–2008
+    selected: false
+
+  - role: Faculty Advisor, CS Web Team
+    years: 2002–2008
+    selected: false
+
+  - role: Chair, Alumni Relations Committee
+    years: 2004–2005
+    selected: false
+
+  - role: LINKS Newsletter Editor
+    years: 2003–2005
+    selected: false
+
+  - role: Member, Faculty Recruiting Committee
+    years: 2006–2007, 2014–2015
+    selected: false
+
+  - role: Member, Public Relations Committee
+    years: 2009–2011
+    selected: false
+
+  - role: Member, Undergraduate Recruiting & Advising Committee
+    years: 2008–2010
+    selected: false
+
+  - role: Member, Graduate Evaluation, Assignment and Training Committee
+    years: 2002–2003
+    selected: false
