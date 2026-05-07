@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -171,6 +171,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-applied-predictive-modeling",
+          title: 'Applied Predictive Modeling',
+          description: "A graduate-level course on applied predictive modeling for working professionals, offered online through Pitt&#39;s Master&#39;s of Data Science program on Coursera.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/cmpinf2120/";
+            },},{id: "teachings-introduction-to-data-science",
+          title: 'Introduction to Data Science',
+          description: "An introduction to data science methods and tools, covering the full pipeline from data acquisition to analysis and visualization.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/cs1656/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
