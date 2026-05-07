@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 I have been teaching at the University of Pittsburgh since 2002, covering
