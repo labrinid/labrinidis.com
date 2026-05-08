@@ -5,6 +5,9 @@ title: teaching
 display_title: Teaching
 nav: true
 nav_order: 4
+redirect_from:
+  - /courses/
+
 ---
 
 I have been teaching at the University of Pittsburgh since 2002, covering
