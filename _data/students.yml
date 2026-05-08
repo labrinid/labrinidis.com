@@ -1,13 +1,19 @@
 current:
   phd:
-    - name: Evangelos Karageorgos
-      expected: Fall 2026
-      linkedin: https://www.linkedin.com/in/evangelos-karageorgos-49305093/
-
     - name: Xiaoting Li
       expected: Summer 2027
-      linkedin: https://www.linkedin.com/in/xiaotingli/
 
+    - name: Evangelos Karageorgos
+      expected: Fall 2026
+
+  msc_thesis:
+    - name: Zi Han Ding
+      graduated: 2026
+      thesis: "An Embedding-Space Perspective Towards a Defense-in-Depth Mechanism for Prompt-to-SQL Attack (Prompt2SQLa)"
+      linkedin: https://www.linkedin.com/in/zi-han-ding-a3b97b1a6/
+
+
+  msc_project:
 
 past:
   phd:
@@ -15,65 +21,54 @@ past:
       graduated: 2024
       coadvisor: Jacob Biehl
       thesis: "MissFit: towards mediating missing data in personal informatics (PI) systems"
-      linkedin: https://www.linkedin.com/in/naiannawen/
 
     - name: Tahereh Arabghalizi
       graduated: 2023
       thesis: Data-driven Predictive Modeling and Multi-stakeholder Recommender Systems for the Public Good
-      linkedin: https://www.linkedin.com/in/tahereharab/
 
     - name: Cory Thoma
       graduated: 2019
       coadvisor: Adam Lee
       thesis: Towards Scalable, Cloud Based, Confidential Data Stream Processing
-      linkedin: https://www.linkedin.com/in/cory-thoma-0730ab49/
 
     - name: Nick Katsipoulakis
       graduated: 2018
       coadvisor: Panos K. Chrysanthis
       thesis: A Procrustean Approach to Stream Processing
-      linkedin: https://www.linkedin.com/in/nikoskatsip/ 
 
     - name: Angen Zheng
       graduated: 2017
       thesis: Architecture- and Workload-Aware Graph (Re)Partitioning
-      linkedin: https://www.linkedin.com/in/angen-zheng-0445a428/
 
     - name: Thao Pham
       graduated: 2016
       coadvisor: Panos K. Chrysanthis
       thesis: Exploiting the Synergy between Scheduling and Load Shedding to Facilitate Differentiated Levels of Service for Continuous Queries
-      linkedin: https://www.linkedin.com/in/thao-n-pham/
 
     - name: Roxana Neophytou (née Gheorghiu)
       graduated: 2014
       coadvisor: Panos K. Chrysanthis
       thesis: Unifying Qualitative and Quantitative Database Preferences to Enhance Query Personalization
-      linkedin: https://www.linkedin.com/in/roxananeophytou/
 
     - name: Qinglan Li
       graduated: 2013
       coadvisor: Panos K. Chrysanthis
       thesis: A User-driven Annotation Framework for Scientific Data
-      linkedin: https://www.linkedin.com/in/qinglan-li-1511aaa3/
 
     - name: Lory Al Moakar
       graduated: 2013
       coadvisor: Panos K. Chrysanthis
       thesis: Class-Based Continuous Query Scheduling in Data Stream Management Systems
-      linkedin: https://www.linkedin.com/in/ljalmoakar/
 
     - name: Panickos Neophytou
       graduated: 2013
       coadvisor: Panos K. Chrysanthis
       thesis: "Continuous Workflows: From Model to Enactment System"
-      linkedin: https://www.linkedin.com/in/panickos/
 
     - name: Shenoda Guirguis
       graduated: 2011
       coadvisor: Panos K. Chrysanthis
       thesis: Scalable Processing of Multiple Aggregate Continuous Queries
-      linkedin: https://www.linkedin.com/in/shenodain/ 
 
     - name: Huiming Qu
       graduated: 2007
@@ -84,3 +79,61 @@ past:
       graduated: 2007
       coadvisor: Panos K. Chrysanthis
       thesis: Metrics and Algorithms for Processing Multiple Continuous Queries
+
+  msc_thesis:
+    - name: Kristin Bushman
+      graduated: 2021
+      thesis: Using Visualization and Integer Linear Programming for University Class Scheduling
+
+    - name: Dillon Schetley
+      graduated: 2020
+      thesis: Rebalancing techniques for station-based bike sharing systems
+      linkedin: https://www.linkedin.com/in/dillon-schetley-6962827a/
+
+    - name: Mark Silvis
+      graduated: 2018
+      thesis: "PittGrub: A Frustration-Free System To Reduce Food Waste By Notifying Hungry College Students"
+      linkedin: https://www.linkedin.com/in/marksilvis/
+
+    - name: Di Bao
+      graduated: 2013
+      thesis: "SNeT: computer-assisted SuperNovae Tracking"
+      linkedin: https://www.linkedin.com/in/baodi/
+
+    - name: Alexander Connor
+      graduated: 2012
+      thesis: "ARIADNE: A Novel High Availability Cloud Data Store with Transactional Guarantees"
+
+  msc_project:
+    - name: Dhanush Binu
+      graduated: 2024
+      linkedin: https://www.linkedin.com/in/dhanush-binu-b32a221ba/
+
+    - name: Yoshita Buthalapalli
+      graduated: 2022
+      thesis: Twitter Digest
+      linkedin: https://www.linkedin.com/in/yoshita-b-40b707249/
+
+    - name: Eric Gratta
+      graduated: 2016
+
+    - name: Wen Gao
+      graduated: 2014
+
+    - name: Tonya Groover
+      graduated: 2010
+
+    - name: Jie Xu
+      graduated: 2009
+
+    - name: Aimee Pail Brown
+      graduated: 2007
+
+    - name: David Kleinman
+      graduated: 2006
+
+    - name: Andreea Munteanu
+      graduated: 2005
+
+    - name: Praveena K. Rudraraju
+      graduated: 2005

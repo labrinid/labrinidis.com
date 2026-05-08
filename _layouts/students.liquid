@@ -8,11 +8,15 @@ layout: page
     {% assign students = site.data.students %}
 
     <!-- Current Students -->
-    {% if students.current %}
+    {% assign has_current_phd = students.current.phd | where_exp: "s", "s.name != nil" %}
+    {% assign has_current_msc_thesis = students.current.msc_thesis | where_exp: "s", "s.name != nil" %}
+    {% assign has_current_msc_project = students.current.msc_project | where_exp: "s", "s.name != nil" %}
+
+    {% if has_current_phd.size > 0 or has_current_msc_thesis.size > 0 or has_current_msc_project.size > 0 %}
       <h2>Current Students</h2>
 
-      {% if students.current.phd %}
-        <h3>PhD</h3>
+      {% if has_current_phd.size > 0 %}
+        <h3>PhD Students</h3>
         <div class="row row-cols-1 row-cols-md-3 g-3 mb-4">
           {% for student in students.current.phd %}
           <div class="col">
@@ -25,20 +29,76 @@ layout: page
               {% else %}
                 <div class="rounded-circle mx-auto mb-2 d-flex align-items-center justify-content-center"
                      style="width:72px;height:72px;background:#E6F1FB;font-size:1.2rem;font-weight:500;color:#185FA5;">
-                  {{ student.name | split: ' ' | map: 'first' | join: '' | slice: 0 }}{{ student.name | split: ' ' | last | slice: 0 }}
+                  {{ student.name | split: ' ' | first | slice: 0 }}{{ student.name | split: ' ' | last | slice: 0 }}
                 </div>
               {% endif %}
               <div class="card-body p-0">
-                <p class="card-title fw-500 mb-1">
+                <p class="card-title fw-bold mb-1">
                   {% if student.linkedin %}
                     <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
                   {% else %}
                     {{ student.name }}
                   {% endif %}
                 </p>
-				{% if student.expected %}
-				  <p class="text-muted small mb-0">Expected {{ student.expected }}</p>
-				{% endif %}
+                {% if student.expected %}
+                  <p class="text-muted small mb-0">Expected {{ student.expected }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if has_current_msc_thesis.size > 0 %}
+        <h3>MSc Students (Thesis)</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-3 mb-4">
+          {% for student in students.current.msc_thesis %}
+          <div class="col">
+            <div class="card h-100 text-center p-3">
+              <div class="rounded-circle mx-auto mb-2 d-flex align-items-center justify-content-center"
+                   style="width:72px;height:72px;background:#E6F1FB;font-size:1.2rem;font-weight:500;color:#185FA5;">
+                {{ student.name | split: ' ' | first | slice: 0 }}{{ student.name | split: ' ' | last | slice: 0 }}
+              </div>
+              <div class="card-body p-0">
+                <p class="card-title fw-bold mb-1">
+                  {% if student.linkedin %}
+                    <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
+                  {% else %}
+                    {{ student.name }}
+                  {% endif %}
+                </p>
+                {% if student.expected %}
+                  <p class="text-muted small mb-0">Expected {{ student.expected }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if has_current_msc_project.size > 0 %}
+        <h3>MSc Students (Project)</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-3 mb-4">
+          {% for student in students.current.msc_project %}
+          <div class="col">
+            <div class="card h-100 text-center p-3">
+              <div class="rounded-circle mx-auto mb-2 d-flex align-items-center justify-content-center"
+                   style="width:72px;height:72px;background:#E6F1FB;font-size:1.2rem;font-weight:500;color:#185FA5;">
+                {{ student.name | split: ' ' | first | slice: 0 }}{{ student.name | split: ' ' | last | slice: 0 }}
+              </div>
+              <div class="card-body p-0">
+                <p class="card-title fw-bold mb-1">
+                  {% if student.linkedin %}
+                    <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
+                  {% else %}
+                    {{ student.name }}
+                  {% endif %}
+                </p>
+                {% if student.expected %}
+                  <p class="text-muted small mb-0">Expected {{ student.expected }}</p>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -49,128 +109,106 @@ layout: page
     {% endif %}
 
     <!-- Past Students -->
-    {% if students.past %}
-      <h2>Past Students</h2>
+    <h2>Past Students</h2>
 
-      {% if students.past.phd %}
-        <h3>PhD</h3>
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Graduated</th>
-              <th>Thesis</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for student in students.past.phd %}
-            <tr>
-              <td>
-                {% if student.linkedin %}
-                  <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
-                {% else %}
-                  {{ student.name }}
-                {% endif %}
-              </td>
-              <td>{{ student.graduated }}</td>
-              <td>
-                {% if student.thesis %}
-                  <em>{{ student.thesis }}</em>
-                {% endif %}
-			    {% if student.coadvisor %}
-			      <br><small class="text-muted">Co-advised with {{ student.coadvisor }}</small>
-			    {% endif %}
-              </td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      {% endif %}
-
-      {% if students.past.msc_thesis %}
-        <h3>MSc Thesis</h3>
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Graduated</th>
-              <th>Thesis</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for student in students.past.msc_thesis %}
-            <tr>
-              <td>
-                {% if student.linkedin %}
-                  <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
-                {% else %}
-                  {{ student.name }}
-                {% endif %}
-              </td>
-              <td>{{ student.graduated }}</td>
-              <td>
-                {% if student.thesis %}
-                  <em>{{ student.thesis }}</em>
-                {% endif %}
-              </td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      {% endif %}
-
-      {% if students.past.msc_project %}
-        <h3>MSc Project</h3>
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Graduated</th>
-              <th>Project</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for student in students.past.msc_project %}
-            <tr>
-              <td>{{ student.name }}</td>
-              <td>{{ student.graduated }}</td>
-              <td>
-                {% if student.thesis %}
-                  <em>{{ student.thesis }}</em>
-                {% endif %}
-              </td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      {% endif %}
-
-      {% if students.past.undergraduate %}
-        <h3>Undergraduate</h3>
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Year</th>
-              <th>Project</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for student in students.past.undergraduate %}
-            <tr>
-              <td>{{ student.name }}</td>
-              <td>{{ student.graduated }}</td>
-              <td>
-                {% if student.thesis %}
-                  <em>{{ student.thesis }}</em>
-                {% endif %}
-              </td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      {% endif %}
-
+    {% if students.past.phd.size > 0 %}
+      <h3>PhD Students</h3>
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Graduated</th>
+            <th>Thesis</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in students.past.phd %}
+          <tr>
+            <td>
+              {% if student.linkedin %}
+                <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
+              {% else %}
+                {{ student.name }}
+              {% endif %}
+            </td>
+            <td>{{ student.graduated }}</td>
+            <td>
+              {% if student.thesis %}
+                <em>{{ student.thesis }}</em>
+              {% endif %}
+              {% if student.coadvisor %}
+                <br><small class="text-muted">Co-advised with {{ student.coadvisor }}</small>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
     {% endif %}
+
+    {% if students.past.msc_thesis.size > 0 %}
+      <h3>MSc Students (Thesis)</h3>
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Graduated</th>
+            <th>Thesis</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in students.past.msc_thesis %}
+          <tr>
+            <td>
+              {% if student.linkedin %}
+                <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
+              {% else %}
+                {{ student.name }}
+              {% endif %}
+            </td>
+            <td>{{ student.graduated }}</td>
+            <td>
+              {% if student.thesis %}
+                <em>{{ student.thesis }}</em>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
+
+    {% if students.past.msc_project.size > 0 %}
+      <h3>MSc Students (Project)</h3>
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Graduated</th>
+            <th>Project</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in students.past.msc_project %}
+          <tr>
+            <td>
+              {% if student.linkedin %}
+                <a href="{{ student.linkedin }}" target="_blank">{{ student.name }}</a>
+              {% else %}
+                {{ student.name }}
+              {% endif %}
+            </td>
+            <td>{{ student.graduated }}</td>
+            <td>
+              {% if student.thesis %}
+                <em>{{ student.thesis }}</em>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
+
   </article>
 </div>
