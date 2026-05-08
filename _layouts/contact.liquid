@@ -47,37 +47,45 @@ layout: page
 {% if s.scholar_userid %}
   {% if c.scholar_url %}
     {% assign scholar_link = c.scholar_url %}
+    {% assign scholar_display = 'labrinidis.com' | append: c.scholar_url %}
   {% else %}
     {% assign scholar_link = 'https://scholar.google.com/citations?user=' | append: s.scholar_userid %}
+    {% assign scholar_display = 'scholar.google.com' %}
   {% endif %}
-  <li><strong>Google Scholar:</strong> <a href="{{ scholar_link }}" target="_blank">scholar.google.com</a></li>
+  <li><strong>Google Scholar:</strong> <a href="{{ scholar_link }}" target="_blank">{{ scholar_display }}</a></li>
 {% endif %}
 
 {% if s.dblp_url %}
   {% if c.dblp_shorturl %}
     {% assign dblp_link = c.dblp_shorturl %}
+    {% assign dblp_display = 'labrinidis.com' | append: c.dblp_shorturl %}
   {% else %}
     {% assign dblp_link = s.dblp_url %}
+    {% assign dblp_display = 'dblp.org' %}
   {% endif %}
-  <li><strong>DBLP:</strong> <a href="{{ dblp_link }}" target="_blank">dblp.org</a></li>
+  <li><strong>DBLP:</strong> <a href="{{ dblp_link }}" target="_blank">{{ dblp_display }}</a></li>
 {% endif %}
 
 {% if s.orcid_id %}
   {% if c.orcid_url %}
     {% assign orcid_link = c.orcid_url %}
+    {% assign orcid_display = 'labrinidis.com' | append: c.orcid_url %}
   {% else %}
     {% assign orcid_link = 'https://orcid.org/' | append: s.orcid_id %}
+    {% assign orcid_display = s.orcid_id %}
   {% endif %}
-  <li><strong>ORCID:</strong> <a href="{{ orcid_link }}" target="_blank">{{ s.orcid_id }}</a></li>
+  <li><strong>ORCID:</strong> <a href="{{ orcid_link }}" target="_blank">{{ orcid_display }}</a></li>
 {% endif %}
 
 {% if s.semanticscholar_id %}
   {% if c.semanticscholar_url %}
     {% assign ss_link = c.semanticscholar_url %}
+    {% assign ss_display = 'labrinidis.com' | append: c.semanticscholar_url %}
   {% else %}
     {% assign ss_link = 'https://www.semanticscholar.org/author/' | append: s.semanticscholar_id %}
+    {% assign ss_display = 'semanticscholar.org' %}
   {% endif %}
-  <li><strong>Semantic Scholar:</strong> <a href="{{ ss_link }}" target="_blank">semanticscholar.org</a></li>
+  <li><strong>Semantic Scholar:</strong> <a href="{{ ss_link }}" target="_blank">{{ ss_display }}</a></li>
 {% endif %}
 		  		  		  
           {% if s.github_username %}
