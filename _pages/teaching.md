@@ -15,14 +15,14 @@ the individual course page and Canvas.
 
 ## Current Courses
 
-{% assign current_courses = site.teachings | where: "current", true %}
+{% assign current_courses = site.teachings | where: "current", true | sort: "nav_order" %}
 {% for course in current_courses %}
 - [{{ course.course_number }} — {{ course.title }}]({{ course.permalink }}) *({{ course.term }} {{ course.year }})*
 {% endfor %}
 
 ## Past Courses
 
-{% assign past_courses = site.teachings | where: "current", false %}
+{% assign past_courses = site.teachings | where: "current", false | sort: "nav_order" %}
 {% for course in past_courses %}
-- {{ course.course_number }} — {{ course.title }}
+- [{{ course.course_number }} — {{ course.title }}]({{ course.permalink }})
 {% endfor %}
