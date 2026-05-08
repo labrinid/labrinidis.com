@@ -108,25 +108,30 @@ past:
     - name: Kristin Bushman
       graduated: 2021
       thesis: Using Visualization and Integer Linear Programming for University Class Scheduling
+      dscholarship: https://d-scholarship.pitt.edu/41496/
 
     - name: Dillon Schetley
       graduated: 2020
       thesis: Rebalancing techniques for station-based bike sharing systems
+      dscholarship: https://d-scholarship.pitt.edu/39565/
       linkedin: https://www.linkedin.com/in/dillon-schetley-6962827a/
 
     - name: Mark Silvis
       graduated: 2018
       thesis: "PittGrub: A Frustration-Free System To Reduce Food Waste By Notifying Hungry College Students"
+      dscholarship: https://d-scholarship.pitt.edu/34276/
       linkedin: https://www.linkedin.com/in/marksilvis/
 
     - name: Di Bao
       graduated: 2013
       thesis: "SNeT: computer-assisted SuperNovae Tracking"
+      dscholarship: https://d-scholarship.pitt.edu/20210/
       linkedin: https://www.linkedin.com/in/baodi/
 
     - name: Alexander Connor
       graduated: 2012
       thesis: "ARIADNE: A Novel High Availability Cloud Data Store with Transactional Guarantees"
+      dscholarship: https://d-scholarship.pitt.edu/16866/
 
   msc_project:
     - name: Dhanush Binu
