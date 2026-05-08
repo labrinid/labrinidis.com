@@ -134,7 +134,11 @@ layout: page
             <td>{{ student.graduated }}</td>
             <td>
               {% if student.thesis %}
-                <em>{{ student.thesis }}</em>
+                {% if student.dscholarship %}
+                  <a href="{{ student.dscholarship }}" target="_blank"><em>{{ student.thesis }}</em></a>
+                {% else %}
+                  <em>{{ student.thesis }}</em>
+                {% endif %}
               {% endif %}
               {% if student.coadvisor %}
                 <br><small class="text-muted">Co-advised with {{ student.coadvisor }}</small>

@@ -1,10 +1,12 @@
 current:
   phd:
-    - name: Xiaoting Li
-      expected: Summer 2027
-
     - name: Evangelos Karageorgos
       expected: Fall 2026
+      linkedin: https://www.linkedin.com/in/evangelos-karageorgos-49305093/
+
+    - name: Xiaoting Li
+      expected: Summer 2027
+      linkedin: https://www.linkedin.com/in/xiaotingli/
 
   msc_thesis:
     - name: Zi Han Ding
@@ -21,64 +23,86 @@ past:
       graduated: 2024
       coadvisor: Jacob Biehl
       thesis: "MissFit: towards mediating missing data in personal informatics (PI) systems"
+      linkedin: https://www.linkedin.com/in/naiannawen/
 
     - name: Tahereh Arabghalizi
       graduated: 2023
       thesis: Data-driven Predictive Modeling and Multi-stakeholder Recommender Systems for the Public Good
+      linkedin: https://www.linkedin.com/in/tahereharab/
 
     - name: Cory Thoma
       graduated: 2019
       coadvisor: Adam Lee
       thesis: Towards Scalable, Cloud Based, Confidential Data Stream Processing
+      dscholarship: https://d-scholarship.pitt.edu/37362/
+      linkedin: https://www.linkedin.com/in/cory-thoma-0730ab49/
 
     - name: Nick Katsipoulakis
       graduated: 2018
       coadvisor: Panos K. Chrysanthis
       thesis: A Procrustean Approach to Stream Processing
+      dscholarship: https://d-scholarship.pitt.edu/36391/
+      linkedin: https://www.linkedin.com/in/nikoskatsip/
 
     - name: Angen Zheng
       graduated: 2017
       thesis: Architecture- and Workload-Aware Graph (Re)Partitioning
+      dscholarship: https://d-scholarship.pitt.edu/33074/
+      linkedin: https://www.linkedin.com/in/angen-zheng-0445a428/
 
     - name: Thao Pham
       graduated: 2016
       coadvisor: Panos K. Chrysanthis
       thesis: Exploiting the Synergy between Scheduling and Load Shedding to Facilitate Differentiated Levels of Service for Continuous Queries
+      dscholarship: https://d-scholarship.pitt.edu/27356/
+      linkedin: https://www.linkedin.com/in/thao-n-pham/
 
     - name: Roxana Neophytou (née Gheorghiu)
       graduated: 2014
       coadvisor: Panos K. Chrysanthis
       thesis: Unifying Qualitative and Quantitative Database Preferences to Enhance Query Personalization
+      dscholarship: https://d-scholarship.pitt.edu/22721/
+      linkedin: https://www.linkedin.com/in/roxananeophytou/
 
     - name: Qinglan Li
       graduated: 2013
       coadvisor: Panos K. Chrysanthis
       thesis: A User-driven Annotation Framework for Scientific Data
+      dscholarship: http://d-scholarship.pitt.edu/19668/
+      linkedin: https://www.linkedin.com/in/qinglan-li-1511aaa3/
 
     - name: Lory Al Moakar
       graduated: 2013
       coadvisor: Panos K. Chrysanthis
       thesis: Class-Based Continuous Query Scheduling in Data Stream Management Systems
+      dscholarship: https://d-scholarship.pitt.edu/18799/
+      linkedin: https://www.linkedin.com/in/ljalmoakar/
 
     - name: Panickos Neophytou
       graduated: 2013
       coadvisor: Panos K. Chrysanthis
       thesis: "Continuous Workflows: From Model to Enactment System"
+      dscholarship: https://d-scholarship.pitt.edu/18533/
+      linkedin: https://www.linkedin.com/in/panickos/
 
     - name: Shenoda Guirguis
       graduated: 2011
       coadvisor: Panos K. Chrysanthis
       thesis: Scalable Processing of Multiple Aggregate Continuous Queries
+      dscholarship: https://d-scholarship.pitt.edu/6211/
+      linkedin: https://www.linkedin.com/in/shenodain/
 
     - name: Huiming Qu
       graduated: 2007
       thesis: Managing Query and Update Transactions under Quality Contracts in Web-Databases
+      dscholarship: https://d-scholarship.pitt.edu/9852/
       linkedin: https://www.linkedin.com/in/huimingqu/
 
     - name: Mohamed Sharaf
       graduated: 2007
       coadvisor: Panos K. Chrysanthis
       thesis: Metrics and Algorithms for Processing Multiple Continuous Queries
+      dscholarship: https://d-scholarship.pitt.edu/9019/
 
   msc_thesis:
     - name: Kristin Bushman
