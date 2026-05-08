@@ -7,7 +7,6 @@ description: Current and past students advised by Alexandros Labrinidis.
 nav: true
 nav_order: 3
 redirect_from:
-  - /students/
   - /students/phd/
   - /students/msc/
   - /students/committees/

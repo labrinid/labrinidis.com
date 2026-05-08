@@ -6,7 +6,6 @@ permalink: /contact/
 nav: true
 nav_order: 6
 redirect_from:
-  - /contact/
   - /contact/social-media/
   - /contact/academic-profiles/
   
