@@ -148,11 +148,26 @@ ninja.data = [{
           description: "A graduate-level course on applied predictive modeling for working professionals, offered online through Pitt&#39;s Master&#39;s of Data Science program on Coursera.",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/cmpinf2120/";
+            },},{id: "teachings-data-witchcraft",
+          title: 'Data Witchcraft',
+          description: "A fun, accessible introduction to data science concepts for non-majors, covering data collection, visualization, and basic analysis. Entry-level prior programming experience is required.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/cs0155/";
+            },},{id: "teachings-database-management-systems",
+          title: 'Database Management Systems',
+          description: "An introduction to the design and use of database management systems, covering relational algebra, SQL, transactions, and system design.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/cs1555/";
             },},{id: "teachings-introduction-to-data-science",
           title: 'Introduction to Data Science',
           description: "An introduction to data science methods and tools, covering the full pipeline from data acquisition to analysis and visualization.",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/cs1656/";
+            },},{id: "teachings-advanced-topics-in-the-management-of-data",
+          title: 'Advanced Topics in the Management of Data',
+          description: "A graduate seminar covering advanced topics in data management systems, including stream processing, data science, and emerging database architectures.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/cs3550/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
