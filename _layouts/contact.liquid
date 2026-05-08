@@ -42,27 +42,43 @@ layout: page
           {% if s.medium_username %}
             <li><strong>Medium:</strong> <a href="https://medium.com/@{{ s.medium_username }}" target="_blank">medium.com/@{{ s.medium_username }}</a></li>
           {% endif %}
-		  
-          {% if s.scholar_userid %}
-            <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user={{ s.scholar_userid }}" target="_blank">scholar.google.com</a></li>
-          {% endif %}
-		  
-		  {% if s.scholar_userid %}
-		    {% assign scholar_link = c.scholar_url | default: 'https://scholar.google.com/citations?user=' | append: s.scholar_userid %}
-		    <li><strong>Google Scholar TEST:</strong> <a href="{{ scholar_link }}" target="_blank">scholar.google.com</a></li>
-		  {% endif %}
-		  
-          {% if s.dblp_url %}
-            <li><strong>DBLP:</strong> <a href="{{ s.dblp_url }}" target="_blank">dblp.org</a></li>
-          {% endif %}
 
-          {% if s.orcid_id %}
-            <li><strong>ORCID:</strong> <a href="https://orcid.org/{{ s.orcid_id }}" target="_blank">{{ s.orcid_id }}</a></li>
-          {% endif %}
-		  
-          {% if s.semanticscholar_id %}
-            <li><strong>Semantic Scholar:</strong> <a href="https://www.semanticscholar.org/author/{{ s.semanticscholar_id }}" target="_blank">semanticscholar.org</a></li>
-          {% endif %}
+
+{% if s.scholar_userid %}
+  {% if c.scholar_url %}
+    {% assign scholar_link = c.scholar_url %}
+  {% else %}
+    {% assign scholar_link = 'https://scholar.google.com/citations?user=' | append: s.scholar_userid %}
+  {% endif %}
+  <li><strong>Google Scholar:</strong> <a href="{{ scholar_link }}" target="_blank">scholar.google.com</a></li>
+{% endif %}
+
+{% if s.dblp_url %}
+  {% if c.dblp_shorturl %}
+    {% assign dblp_link = c.dblp_shorturl %}
+  {% else %}
+    {% assign dblp_link = s.dblp_url %}
+  {% endif %}
+  <li><strong>DBLP:</strong> <a href="{{ dblp_link }}" target="_blank">dblp.org</a></li>
+{% endif %}
+
+{% if s.orcid_id %}
+  {% if c.orcid_url %}
+    {% assign orcid_link = c.orcid_url %}
+  {% else %}
+    {% assign orcid_link = 'https://orcid.org/' | append: s.orcid_id %}
+  {% endif %}
+  <li><strong>ORCID:</strong> <a href="{{ orcid_link }}" target="_blank">{{ s.orcid_id }}</a></li>
+{% endif %}
+
+{% if s.semanticscholar_id %}
+  {% if c.semanticscholar_url %}
+    {% assign ss_link = c.semanticscholar_url %}
+  {% else %}
+    {% assign ss_link = 'https://www.semanticscholar.org/author/' | append: s.semanticscholar_id %}
+  {% endif %}
+  <li><strong>Semantic Scholar:</strong> <a href="{{ ss_link }}" target="_blank">semanticscholar.org</a></li>
+{% endif %}
 		  		  		  
           {% if s.github_username %}
             <li><strong>GitHub:</strong> <a href="https://github.com/{{ s.github_username }}" target="_blank">github.com/{{ s.github_username }}</a></li>
