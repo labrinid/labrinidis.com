@@ -1,6 +1,7 @@
 ---
 layout: page
 title: research
+display_title: Research
 permalink: /research/
 nav: true
 nav_order: 1
