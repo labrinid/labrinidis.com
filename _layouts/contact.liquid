@@ -7,13 +7,14 @@ layout: page
 
     {% assign c = site.data.contact %}
     {% assign s = site.data.socials %}
+    {% assign obfuscated_email = s.email | replace: '@', ' [at] ' | replace: '.', ' [dot] ' %}
 
     <div class="row mt-3">
       <div class="col-md-6">
 
         <h2>Contact</h2>
         <p>
-          <strong>Email:</strong> {{ c.email | encode_email }}<br>
+          <strong>Email:</strong> {{ obfuscated_email }}<br>
           <strong>Phone:</strong> {{ c.phone }}<br>
           <strong>Office:</strong> {{ c.building }}, Room {{ c.room }}<br>
           <strong>Office Hours:</strong> {{ c.office_hours }}
@@ -33,9 +34,7 @@ layout: page
 
         <h2>Online Profiles</h2>
         <ul>
-          {% if s.email %}
-            <li><strong>Email:</strong> {{ s.email | encode_email }}</li>
-          {% endif %}
+          <li><strong>Email:</strong> {{ obfuscated_email }}</li>
           {% if s.scholar_userid %}
             <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user={{ s.scholar_userid }}" target="_blank">scholar.google.com</a></li>
           {% endif %}
