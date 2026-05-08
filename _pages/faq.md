@@ -13,11 +13,13 @@ redirect_from:
 
 **Q1: I am a University of Pittsburgh student. Can I join your research group?**
 
-Yes! If you are a graduate or undergraduate student in the [Department of
-Computer Science](https://www.cs.pitt.edu/) at the University of Pittsburgh
-and are interested in data management, please contact me to discuss further.
+Yes! If you are a graduate or undergraduate student in the 
+[Department of Computer Science](https://www.cs.pitt.edu) 
+at the University of Pittsburgh and are interested in 
+data management or data science, please 
+[contact me](/contact/) to discuss further.
 We are always looking for smart and motivated students to join the
-[ADMT Lab](https://db.cs.pitt.edu/group).
+[ADMT Lab](https://db.cs.pitt.edu).
 
 ---
 
@@ -58,6 +60,6 @@ Not at this point. Check the [news](/news/) page for any future announcements.
 **Q6: Can we connect on LinkedIn?**
 
 If you are a student in one of my courses, I would love to connect with you
-on LinkedIn — please send me a connection request after the term is over.
+on [LinkedIn](https://linkedin.com/in/labrinidis) — please send me a connection request after the term is over.
 I always enjoy keeping in touch with past students and seeing the great things
 they accomplish.
