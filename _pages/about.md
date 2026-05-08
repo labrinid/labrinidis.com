@@ -40,3 +40,4 @@ I teach data science to undergraduates and applied predictive modeling to
 working professionals through Pitt's online [Master's of Data Science](https://www.sci.pitt.edu/MDS) program on Coursera. 
 I also served a term as department chair, which taught me that managing faculty is harder than any optimization problem I've encountered.
 
+If you are interested in joining the lab, please read the [FAQ](/faq/) before reaching out.
