@@ -48,7 +48,7 @@ layout: page
           {% endif %}
 		  
 		  {% if s.scholar_userid %}
-		    {% assign scholar_link = s.scholar_url | default: 'https://scholar.google.com/citations?user=' | append: s.scholar_userid %}
+		    {% assign scholar_link = c.scholar_url | default: 'https://scholar.google.com/citations?user=' | append: s.scholar_userid %}
 		    <li><strong>Google Scholar TEST:</strong> <a href="{{ scholar_link }}" target="_blank">scholar.google.com</a></li>
 		  {% endif %}
 		  
