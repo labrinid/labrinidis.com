@@ -7,4 +7,4 @@ nav_order: 5
 show_all: false
 ---
 
-###(selected activities — [full record](/service/full/))
+**(selected activities — [full record](/service/full/))**
