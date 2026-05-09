@@ -349,7 +349,7 @@ professional_organizations:
   - role: Secretary/Treasurer
     venue: ACM SIGMOD
     years: 2009–2013
-    selected: false
+    selected: true
 
   - role: Member, Executive Committee
     venue: ACM SIGMOD

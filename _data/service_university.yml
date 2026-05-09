@@ -1,4 +1,4 @@
-university:
+university_service:
   - role: Chair, Institutional Data Review Committee
     years: 2023–present
     selected: true
@@ -31,7 +31,7 @@ university:
     years: 2009–2011
     selected: false
 
-school_and_department:
+school_and_department_service:
   - role: Department Chair
     years: 2020–2022
     selected: true
