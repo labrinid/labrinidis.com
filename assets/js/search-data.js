@@ -98,7 +98,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-blogging-on-medium-my-first-post-is-the-missing-feature-in-claude-projects-and-a-30-second-workaround",
           title: 'I started blogging on Medium! My first post is The Missing Feature in...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-new-website-up-and-running-at-labrinidis-com",
+          title: 'New website up and running at labrinidis.com',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-08-new-website-2026/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
