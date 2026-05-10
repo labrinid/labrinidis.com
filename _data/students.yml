@@ -10,7 +10,7 @@ current:
 
   msc_thesis:
     - name: Zi Han Ding
-      graduated: 2026
+      expected: Spring 2026
       thesis: "An Embedding-Space Perspective Towards a Defense-in-Depth Mechanism for Prompt-to-SQL Attack (Prompt2SQLa)"
       linkedin: https://www.linkedin.com/in/zi-han-ding-a3b97b1a6/
 
@@ -23,11 +23,13 @@ past:
       graduated: 2024
       coadvisor: Jacob Biehl
       thesis: "MissFit: towards mediating missing data in personal informatics (PI) systems"
+      dscholarship: https://d-scholarship.pitt.edu/46403/
       linkedin: https://www.linkedin.com/in/naiannawen/
 
     - name: Tahereh Arabghalizi
       graduated: 2023
       thesis: Data-driven Predictive Modeling and Multi-stakeholder Recommender Systems for the Public Good
+      dscholarship: https://d-scholarship.pitt.edu/44514/
       linkedin: https://www.linkedin.com/in/tahereharab/
 
     - name: Cory Thoma
