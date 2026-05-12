@@ -30,22 +30,22 @@ layout: default
     <!-- Links/Buttons -->
     <div class="links" style="margin-top: 0.75rem;">
       {% if page.pdf %}
-        <a href="{{ page.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        <a href="{{ page.pdf | relative_url }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">PDF</a>
       {% endif %}
       {% if page.doi %}
-        <a href="https://doi.org/{{ page.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+        <a href="https://doi.org/{{ page.doi }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if page.arxiv %}
-        <a href="https://arxiv.org/abs/{{ page.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        <a href="https://arxiv.org/abs/{{ page.arxiv }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if page.code %}
-        <a href="{{ page.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        <a href="{{ page.code }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">Code</a>
       {% endif %}
       {% if page.slides %}
-        <a href="{{ page.slides | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+        <a href="{{ page.slides | relative_url }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">Slides</a>
       {% endif %}
       {% if page.poster %}
-        <a href="{{ page.poster | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+        <a href="{{ page.poster | relative_url }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">Poster</a>
       {% endif %}
     </div>
   </header>
