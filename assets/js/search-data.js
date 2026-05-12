@@ -92,10 +92,12 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-02-28-ieee-distinguished-contributor/";
-            },},{id: "news-i-presented-our-paper-entitled-damit-sql-detecting-and-mitigating-text-to-sql-prompt-injection-attacks-in-the-llms-meet-databases-lmd-2025-workshop-of-the-35th-ieee-international-conference-on-collaborative-advances-in-software-and-computing-cascon-2025",
-          title: 'I presented our paper entitled DaMiT-SQL: Detecting and Mitigating Text-to-SQL Prompt Injection Attacks...',
+            },},{id: "news-presented-our-work-at-cascon-2025",
+          title: 'Presented our work at CASCON 2025',
           description: "",
-          section: "News",},{id: "news-serving-as-a-senior-pc-member-at-the-43rd-ieee-international-conference-on-data-engineering-icde-2027",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-11-12-cascon2025-paper/";
+            },},{id: "news-serving-as-a-senior-pc-member-at-the-43rd-ieee-international-conference-on-data-engineering-icde-2027",
           title: 'Serving as a Senior PC Member at the 43rd IEEE International Conference on...',
           description: "",
           section: "News",},{id: "news-ai-teaching-field-notes-learning-to-trust-but-verify",
