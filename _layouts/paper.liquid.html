@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <!-- Authors -->
+    {% if page.authors %}
+      <div class="paper-authors">
+        {% for author in page.authors %}
+          {%- if forloop.last and forloop.length > 1 %} and {% elsif forloop.first == false %}, {% endif %}
+          {%- if author.url %}
+            <a href="{{ author.url }}">{{ author.name }}</a>
+          {%- else %}
+            {{ author.name }}
+          {%- endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Venue, year, pages -->
+    <div class="paper-venue">
+      {% if page.venue %}<em>{{ page.venue }}</em>{% endif %}
+      {% if page.pages %}, pp. {{ page.pages | replace: '--', '–' }}{% endif %}
+      {% if page.year %}, {{ page.year }}{% endif %}
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links" style="margin-top: 0.75rem;">
+      {% if page.pdf %}
+        <a href="{{ page.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      {% endif %}
+      {% if page.doi %}
+        <a href="https://doi.org/{{ page.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+      {% endif %}
+      {% if page.arxiv %}
+        <a href="https://arxiv.org/abs/{{ page.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% endif %}
+      {% if page.code %}
+        <a href="{{ page.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+      {% endif %}
+      {% if page.slides %}
+        <a href="{{ page.slides | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+      {% endif %}
+      {% if page.poster %}
+        <a href="{{ page.poster | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+      {% endif %}
+    </div>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+</div>

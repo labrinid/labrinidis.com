@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: paper
 title: "DaMiT-SQL: Detecting and Mitigating Text-to-SQL Prompt Injection Attacks"
 permalink: /papers/2025/cascon2025-damitsql/
 
@@ -39,7 +39,4 @@ LLMs as an attack surface for SQL injection. We propose a time- and cost-efficie
 approach to quickly detect malicious prompts by comparing the semantic similarity of the
 attack against a dedicated list of known patterns.
 
-## Links
 
-- [DOI](https://doi.org/10.1109/CASCON66301.2025.00116)
-- [PDF]({{ page.pdf }})
