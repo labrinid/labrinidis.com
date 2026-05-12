@@ -23,7 +23,7 @@ layout: default
     <!-- Venue, year, pages -->
     <div class="paper-venue">
       {% if page.venue %}<em>{{ page.venue }}</em>{% endif %}
-      {% if page.pages %}, pp. {{ page.pages | replace: '--', '–' }}{% endif %}
+      {% if page.paper_pages %}, pp. {{ page.paper_pages | replace: '--', '–' }}{% endif %}
       {% if page.year %}, {{ page.year }}{% endif %}
     </div>
 

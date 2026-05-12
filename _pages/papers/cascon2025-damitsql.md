@@ -6,14 +6,13 @@ permalink: /papers/2025/cascon2025-damitsql/
 # Bibliographic metadata
 authors:
   - name: Zi Han Ding
-    url:
   - name: Alexandros Labrinidis
     url: /
 
 venue: "2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)"
 venue_short: CASCON 2025
 year: 2025
-pages: "641--646"
+paper_pages: "641–646"
 doi: 10.1109/CASCON66301.2025.00116
 
 # Links
@@ -38,5 +37,3 @@ secured, can cause serious damage. This paper explores the possibilities of expl
 LLMs as an attack surface for SQL injection. We propose a time- and cost-efficient
 approach to quickly detect malicious prompts by comparing the semantic similarity of the
 attack against a dedicated list of known patterns.
-
-
