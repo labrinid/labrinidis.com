@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-04-28
+date: 2026-04-28
 title: AI Teaching Field Notes: Learning to Trust (But Verify)
 inline: false
 tags: [blog]
