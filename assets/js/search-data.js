@@ -95,12 +95,7 @@ ninja.data = [{
             },},{id: "news-serving-as-a-senior-pc-member-at-the-43rd-ieee-international-conference-on-data-engineering-icde-2027",
           title: 'Serving as a Senior PC Member at the 43rd IEEE International Conference on...',
           description: "",
-          section: "News",},{id: "news-",
-          title: '',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026-04-28-ai-field-notes/";
-            },},{id: "news-i-started-blogging-on-medium-my-first-post-is-the-missing-feature-in-claude-projects-and-a-30-second-workaround",
+          section: "News",},{id: "news-i-started-blogging-on-medium-my-first-post-is-the-missing-feature-in-claude-projects-and-a-30-second-workaround",
           title: 'I started blogging on Medium! My first post is The Missing Feature in...',
           description: "",
           section: "News",},{id: "news-new-website-up-and-running-at-labrinidis-com",
