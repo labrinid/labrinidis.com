@@ -16,7 +16,7 @@ paper_pages: "641–646"
 doi: 10.1109/CASCON66301.2025.00116
 
 # Links
-pdf: /assets/pdf/papers/cascon2025-damitsql.pdf
+pdf: /assets/pdf/papers/2025/cascon2025-damitsql.pdf
 # code:
 # slides:
 # poster:
