@@ -105,10 +105,12 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-04-28-ai-field-notes/";
-            },},{id: "news-my-first-solo-phd-advisee-dr-huiming-qu-vp-of-data-science-at-home-depot-was-the-keynote-speaker-for-the-spring-2026-graduation-ceremony-of-the-school-of-computing-and-information-she-gave-a-very-inspiring-talk-and-made-for-a-very-proud-advisor-moment",
-          title: 'My first solo PhD advisee, Dr. Huiming Qu (VP of Data Science at...',
+            },},{id: "news-my-first-phd-student-dr-huiming-qu-vp-of-data-science-at-home-depot-was-the-keynote-speaker-at-the-sci-graduation-ceremony",
+          title: 'My first PhD student, Dr. Huiming Qu (VP of Data Science at Home...',
           description: "",
-          section: "News",},{id: "news-i-started-blogging-on-medium-my-first-post-is-the-missing-feature-in-claude-projects-and-a-30-second-workaround",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-01-Huiming-Qu-SCI-graduation/";
+            },},{id: "news-i-started-blogging-on-medium-my-first-post-is-the-missing-feature-in-claude-projects-and-a-30-second-workaround",
           title: 'I started blogging on Medium! My first post is The Missing Feature in...',
           description: "",
           section: "News",},{id: "news-new-website-up-and-running-at-labrinidis-com",
