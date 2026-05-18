@@ -22,7 +22,7 @@ pdf: /assets/pdf/papers/2026/mdm2026-query-similarity.pdf
 
 # SEO
 description: >
-	TESS and GESS are novel SQL query similarity algorithms that capture structural and semantic content for query recommendation, workload analysis, and spatiotemporal data exploration. TESS constructs weighted embedding vectors from query label trees; GESS provides a lightweight full-text embedding alternative. Evaluated across five datasets and seven metrics, TESS achieves superior performance for interactive recommendation at scale.
+  TESS and GESS are novel SQL query similarity algorithms that capture structural and semantic content for query recommendation, workload analysis, and spatiotemporal data exploration. TESS constructs weighted embedding vectors from query label trees; GESS provides a lightweight full-text embedding alternative. Evaluated across five datasets and seven metrics, TESS achieves superior performance for interactive recommendation at scale.
 ---
 
 ## Abstract
