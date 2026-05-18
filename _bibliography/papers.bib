@@ -44,23 +44,35 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{DBLP:conf/flairs/ArabghaliziL22,
-  author       = {Tahereh Arabghalizi and
-                  Alexandros Labrinidis},
-  editor       = {Roman Bart{\'{a}}k and
-                  Fazel Keshtkar and
-                  Michael Franklin},
+@inproceedings{flairs2022-context-aware-recsys,
+  author       = {Arabghalizi, Tahereh and
+                  Labrinidis, Alexandros},
   title        = {Context-aware Multi-stakeholder Recommender Systems},
-  booktitle    = {Proceedings of the Thirty-Fifth International Florida Artificial Intelligence
-                  Research Society Conference, {FLAIRS} 2022, Hutchinson Island, Jensen
-                  Beach, Florida, USA, May 15-18, 2022},
+  booktitle    = {Proceedings of the Thirty-Fifth International Florida
+                  Artificial Intelligence Research Society Conference,
+                  {FLAIRS} 2022, Hutchinson Island, Jensen Beach, Florida,
+                  USA, May 15-18, 2022},
   publisher    = {Florida Online Journals},
   year         = {2022},
-  url          = {https://doi.org/10.32473/flairs.v35i.130573},
   doi          = {10.32473/FLAIRS.V35I.130573},
-  timestamp    = {Mon, 26 May 2025 07:56:54 +0200},
-  biburl       = {https://dblp.org/rec/conf/flairs/ArabghaliziL22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  url          = {https://doi.org/10.32473/flairs.v35i.130573},
+  keywords     = {recommender systems; multi-stakeholder; contextual bandits;
+                  multi-armed bandits; fairness; diversity; smart city},
+  abstract     = {Traditional recommender systems help users find the most
+                  relevant products or services to match their needs and
+                  preferences. However, they overlook the preferences of other
+                  sides of the market (aka stakeholders) involved in the system.
+                  In this paper, we propose to use contextual bandit algorithms
+                  in multi-stakeholder platforms where a multi-sided relevance
+                  function with adjusting weights is modeled to consider the
+                  preferences of all involved stakeholders. Our extensive
+                  experimental results on a dataset consisting of MovieLens (1m),
+                  IMDB (81k+), and a synthetic dataset show that our proposed
+                  approach outperforms the baseline methods and provides a good
+                  trade-off between the satisfaction of different stakeholders
+                  over time.},
+  pdf          = {papers/2022/flairs2022-context-aware-recsys.pdf},
+  website      = {/papers/2022/flairs2022-context-aware-recsys/},
   selected     = {true}
 }
 
@@ -121,21 +133,32 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/tdasci/ArabghaliziL20,
-  author       = {Tahereh Arabghalizi and
-                  Alexandros Labrinidis},
-  title        = {Data-driven Bus Crowding Prediction Models Using Context-specific
-                  Features},
-  journal      = {Trans. Data Sci.},
+@article{tds2020-bus-crowding,
+  author       = {Arabghalizi, Tahereh and
+                  Labrinidis, Alexandros},
+  title        = {Data-driven Bus Crowding Prediction Models Using
+                  Context-specific Features},
+  journal      = {{ACM/IMS} Transactions on Data Science},
   volume       = {1},
   number       = {3},
   pages        = {23:1--23:33},
   year         = {2020},
-  url          = {https://doi.org/10.1145/3406962},
   doi          = {10.1145/3406962},
-  timestamp    = {Sat, 08 Jan 2022 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/tdasci/ArabghaliziL20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  url          = {https://doi.org/10.1145/3406962},
+  keywords     = {smart city; intelligent transportation; urban computing;
+                  crowdedness prediction; machine learning; random forest;
+                  bus crowding; PittSmartLiving},
+  abstract     = {Most transit technologies have focused on answering "When
+                  will my bus arrive?"; little has been done to answer "How
+                  full will my next bus be?" — which also dramatically affects
+                  commuters' quality of life. In this article, we consider the
+                  bus fullness problem. We propose two different formulations
+                  of the problem, develop multiple predictive models using
+                  context-specific features, and evaluate their accuracy using
+                  data from the Pittsburgh region. Our predictive models
+                  consistently outperform the baselines by up to 8 times.},
+  pdf          = {papers/2020/tds2020-bus-crowding.pdf},
+  website      = {/papers/2020/tds2020-bus-crowding/},
   selected     = {true}
 }
 
@@ -553,22 +576,35 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/vldb/PhamCL16,
-  author       = {Thao N. Pham and
-                  Panos K. Chrysanthis and
-                  Alexandros Labrinidis},
-  title        = {Avoiding class warfare: managing continuous queries with differentiated
-                  classes of service},
-  journal      = {{VLDB} J.},
+@article{vldbj2016-avoiding-class-warfare,
+  author       = {Pham, Thao N. and
+                  Chrysanthis, Panos K. and
+                  Labrinidis, Alexandros},
+  title        = {Avoiding Class Warfare: Managing Continuous Queries with
+                  Differentiated Classes of Service},
+  journal      = {The {VLDB} Journal},
   volume       = {25},
   number       = {2},
   pages        = {197--221},
   year         = {2016},
+  doi          = {10.1007/s00778-015-0411-4},
   url          = {https://doi.org/10.1007/s00778-015-0411-4},
-  doi          = {10.1007/S00778-015-0411-4},
-  timestamp    = {Sat, 09 Apr 2022 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/vldb/PhamCL16.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  keywords     = {data stream management; continuous queries; load shedding;
+                  scheduling; quality of service; multi-tenant; DILoS; ALoMa},
+  abstract     = {Data stream management systems (DSMSs) offer the most
+                  effective solution for processing data streams by efficiently
+                  executing continuous queries (CQs) over the incoming data.
+                  CQs inherently have different levels of criticality and hence
+                  different levels of expected quality of service (QoS) and
+                  quality of data (QoD). We propose DILoS, a novel unified
+                  framework that exploits the synergy between priority-based
+                  scheduling and load shedding to support differentiated QoS
+                  and QoD for multiple classes of CQs. We also propose ALoMa,
+                  a general adaptive load manager that automatically tunes the
+                  headroom factor, honors the delay target, and is applicable
+                  to complex query networks with shared operators.},
+  pdf          = {papers/2016/vldbj2016-avoiding-class-warfare.pdf},
+  website      = {/papers/2016/vldbj2016-avoiding-class-warfare/},
   selected     = {true}
 }
 
