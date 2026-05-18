@@ -118,8 +118,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-05-08-new-website-2026/";
-            },},{id: "news-our-paper-on-embedding-based-sql-query-similarity-for-spatiotemporal-data-exploration-pdf-has-been-accepted-to-the-ieee-mdm-2026-conference-to-be-held-in-athens-greece-in-june",
-          title: 'Our paper on Embedding-Based SQL Query Similarity for Spatiotemporal Data Exploration pdf has...',
+            },},{id: "news-our-paper-on-embedding-based-sql-query-similarity-for-spatiotemporal-data-exploration-https-labrinidis-com-papers-2026-mdm2026-query-similarity-has-been-accepted-to-the-ieee-mdm-2026-conference-to-be-held-in-athens-greece-in-june",
+          title: 'Our paper on [Embedding-Based SQL Query Similarity for Spatiotemporal Data Exploration}(https://labrinidis.com/papers/2026/mdm2026-query-similarity/) has been...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
