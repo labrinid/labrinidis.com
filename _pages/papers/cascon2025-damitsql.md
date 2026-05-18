@@ -6,6 +6,7 @@ permalink: /papers/2025/cascon2025-damitsql/
 # Bibliographic metadata
 authors:
   - name: Zi Han Ding
+    url: https://www.linkedin.com/in/zi-han-ding-a3b97b1a6/
   - name: Alexandros Labrinidis
     url: /
 
