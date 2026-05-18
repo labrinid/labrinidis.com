@@ -9,7 +9,7 @@
   update-doi          = {},
   abstract	   = {Estimating the similarity of SQL queries is a fundamental building block for query recommendation systems, workload analysis, and interactive data exploration. We introduce TESS (Tree-Embedding SQL Similarity), a novel query similarity algorithm that constructs a weighted embedding vector from the label tree of a query, capturing both its structural and semantic content. We also present GESS (Global-Embedding SQL Similarity), a lightweight companion algorithm that embeds the full query text as a single vector. Our motivating application is query recommendation for spatiotemporal data exploration, where an analyst’s queries must be compared by semantic intent rather than by syntactic structure alone. We introduce a rigorous evaluation framework and perform a comprehensive evaluation across five datasets and seven metrics. Our experiments show that TESS achieves superior performance across multiple metrics, making it well-suited for interactive recommendation at scale.},
   pdf		   = {papers/2026/mdm2026-query-similarity.pdf},
-  website      = {/papers/2026/mdm2026-query-similarity/},
+  nowebsite      = {/papers/2026/mdm2026-query-similarity/},
   selected     = {true}
 }
 
@@ -24,7 +24,7 @@
   doi          = {10.1109/CASCON66301.2025.00116},
   abstract	   = {Large Language Models (LLMs) are known for their ability to understand and respond to human instructions/prompts. As such, LLMs can be used to produce natural language interfaces for databases. However, LLMs also have an attack surface that, if not properly secured, can cause serious damage. This paper aims to explore the possibilities of exploiting LLMs as an attack surface for SQL injection. The paper proposes a time- and cost-efficient approach to quickly detect malicious prompts by comparing the semantic similarity of the attack against a dedicated list of known patterns.},
   pdf		   = {papers/2025/cascon2025-damitsql.pdf},
-  website      = {/papers/2025/cascon2025-damitsql/},
+  nowebsite      = {/papers/2025/cascon2025-damitsql/},
   selected     = {true}
 }
 
@@ -859,25 +859,36 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/cacm/JagadishGLPPRS14,
-  author       = {H. V. Jagadish and
-                  Johannes Gehrke and
-                  Alexandros Labrinidis and
-                  Yannis Papakonstantinou and
-                  Jignesh M. Patel and
-                  Raghu Ramakrishnan and
-                  Cyrus Shahabi},
-  title        = {Big data and its technical challenges},
-  journal      = {Commun. {ACM}},
+@article{cacm2014-big-data,
+  author       = {Jagadish, H. V. and
+                  Gehrke, Johannes and
+                  Labrinidis, Alexandros and
+                  Papakonstantinou, Yannis and
+                  Patel, Jignesh M. and
+                  Ramakrishnan, Raghu and
+                  Shahabi, Cyrus},
+  title        = {Big Data and Its Technical Challenges},
+  journal      = {Communications of the {ACM}},
   volume       = {57},
   number       = {7},
   pages        = {86--94},
   year         = {2014},
-  url          = {https://doi.org/10.1145/2611567},
   doi          = {10.1145/2611567},
-  timestamp    = {Sun, 19 Jan 2025 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/cacm/JagadishGLPPRS14.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  url          = {https://doi.org/10.1145/2611567},
+  keywords     = {big data; data management; data acquisition; data integration;
+                  heterogeneity; privacy; visualization; scalability},
+  abstract     = {In a broad range of application areas, data is being collected
+                  at an unprecedented scale. Decisions that previously were based
+                  on guesswork, or on painstakingly handcrafted models of reality,
+                  can now be made using data-driven mathematical models. Such Big
+                  Data analysis now drives nearly every aspect of society, including
+                  mobile services, retail, manufacturing, financial services, life
+                  sciences, and physical sciences. Research challenges abound,
+                  ranging from heterogeneity of data, inconsistency and
+                  incompleteness, timeliness, privacy, visualization, and
+                  collaboration, to the tools ecosystem around Big Data.},
+  pdf          = {papers/cacm2014-big-data.pdf},
+  website      = {/papers/2014/cacm2014-big-data/},
   selected     = {true}
 }
 
