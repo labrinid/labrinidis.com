@@ -12,7 +12,6 @@ authors:
 venue: "27th IEEE International Conference on Mobile Data Management"
 venue_short: MDM 2026
 year: 2026
-paper_pages: "12 pages"
 
 # Links
 pdf: /assets/pdf/papers/2026/mdm2026-query-similarity.pdf
