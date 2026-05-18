@@ -6,6 +6,7 @@ permalink: /papers/2026/mdm2026-query-similarity/
 # Bibliographic metadata
 authors:
   - name: Evangelos Karageorgos
+  	url: https://www.linkedin.com/in/evangelos-karageorgos-49305093/
   - name: Alexandros Labrinidis
     url: /
 
