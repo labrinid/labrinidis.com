@@ -1,0 +1,24 @@
+NYC Citywide Rolling Calendar Sales
+====================================
+
+This CSV is a mirror of a public dataset from NYC Open Data, hosted here for
+educational use.
+
+File:        NYC_Citywide_Rolling_Calendar_Sales_20260716.csv
+Mirror URL:  https://labrinidis.com/assets/data/NYC_Citywide_Rolling_Calendar_Sales_20260716.csv
+
+Source:      NYC Open Data — Department of Finance, Citywide Rolling Calendar Sales
+Original:    https://data.cityofnewyork.us/dataset/NYC-Citywide-Rolling-Calendar-Sales/usep-8jbt/about_data
+Retrieved:   2026-07-16
+
+Terms of use
+------------
+NYC Open Data is published under NYC's Open Data Law (Local Law 11). There are
+no registration, license, or usage restrictions, and no attribution is
+required. The source and retrieval date above are provided as a courtesy for
+provenance.
+
+The data is provided "AS IS." The City of New York does not warranty the
+completeness, accuracy, content, or fitness for any particular purpose of the
+dataset. This mirror is unmodified from the source as retrieved on the date
+above.
