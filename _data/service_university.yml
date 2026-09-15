@@ -1,4 +1,8 @@
 university_service:
+  - role: Member, HAIL Academic Advisory Committee 
+    years: 2026–present
+    selected: true
+	
   - role: Chair, Institutional Data Review Committee
     years: 2023–present
     selected: true
