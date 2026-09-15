@@ -124,7 +124,7 @@ ninja.data = [{
           section: "News",},{id: "news-serving-as-a-senior-pc-member-for-icde-2027-first-submission-deadline-today-second-submission-deadline-november-11",
           title: 'Serving as a Senior PC member for ICDE 2027. First submission deadline today,...',
           description: "",
-          section: "News",},{id: "news-fall-semester-is-underway-teaching-cs-1656-introduction-to-data-science-and-applied-predictive-modeling-cmpinf-2120",
+          section: "News",},{id: "news-fall-semester-is-underway-teaching-cs-1656-introduction-to-data-science-and-cmpinf-2120-applied-predictive-modeling-for-pitt-s-master-of-data-science-program",
           title: 'Fall semester is underway — teaching CS 1656: Introduction to Data Science and...',
           description: "",
           section: "News",},{id: "news-starting-my-25th-year-at-the-university-of-pittsburgh-grateful-for-a-quarter-century-of-students-colleagues-and-research-looking-forward-to-the-next-25-just-kidding",
