@@ -1,6 +1,7 @@
 university_service:
   - role: Member
     venue: HAIL Academic Advisory Committee
+	url: https://www.aihub.pitt.edu/about/hail-advisory-board
     years: 2026–present
     selected: true
 
@@ -45,12 +46,9 @@ university_service:
     selected: false
 
 school_and_department_service:
-  - role: Department Chair
-    years: 2020–2022
-    selected: true
-
-  - role: Director of Graduate Studies
-    years: 2019
+  - role: Chair
+    venue: Department Colloquium Committee
+    years: 2023–2026
     selected: false
 
   - role: Chair
@@ -60,12 +58,20 @@ school_and_department_service:
 
   - role: Chair
     venue: Department Colloquium Committee
-    years: 2023–2024
+    years: 2023–2026
     selected: false
+
+  - role: Department Chair
+    years: 2020–2022
+    selected: true
 
   - role: Chair
     venue: SCI Web Vision Committee
     years: 2019–2020
+    selected: false
+
+  - role: Director of Graduate Studies
+    years: 2019
     selected: false
 
   - role: Member
