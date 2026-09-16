@@ -64,7 +64,17 @@ layout: page
             {% for item in items %}
             <tr>
               <td style="width:12%; white-space:nowrap;">{{ item.years }}</td>
-              <td>{{ item.role }}</td>
+              <td style="width:28%">{{ item.role }}</td>
+              <td>
+                {% if item.url %}
+                  <a href="{{ item.url }}" target="_blank">{{ item.venue }}</a>
+                {% else %}
+                  {{ item.venue }}
+                {% endif %}
+                {% if item.full_name %}
+                  <br><small class="text-muted">{{ item.full_name }}</small>
+                {% endif %}
+              </td>
             </tr>
             {% endfor %}
           </tbody>

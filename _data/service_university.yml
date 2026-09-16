@@ -1,37 +1,46 @@
 university_service:
-  - role: Member, HAIL Academic Advisory Committee 
+  - role: Member
+    venue: HAIL Academic Advisory Committee
     years: 2026–present
     selected: true
 
-  - role: Chair, Institutional Data Review Committee
+  - role: Chair
+    venue: Institutional Data Review Committee
     years: 2023–present
     selected: true
 
-  - role: Elected Member, University Senate
+  - role: Elected Member
+    venue: University Senate
     years: 2015–2017, 2018–2023
     selected: true
 
-  - role: Member, Information Technology Advisory Committee
+  - role: Member
+    venue: Information Technology Advisory Committee
     years: 2020–2022
     selected: false
 
-  - role: Elected Member, Faculty Assembly
+  - role: Elected Member
+    venue: Faculty Assembly
     years: 2014–2023
     selected: false
 
-  - role: Co-Chair, Senate Computer Usage Committee
+  - role: Co-Chair
+    venue: Senate Computer Usage Committee
     years: 2009–2014
     selected: false
 
-  - role: Elected Member, Senate Computer Usage Committee
+  - role: Elected Member
+    venue: Senate Computer Usage Committee
     years: 2008–2014, 2019–2022
     selected: false
 
-  - role: Member, Information Technology Steering Committee
+  - role: Member
+    venue: Information Technology Steering Committee
     years: 2009–2014
     selected: false
 
-  - role: Member, Council on Academic Computing
+  - role: Member
+    venue: Council on Academic Computing
     years: 2009–2011
     selected: false
 
@@ -44,31 +53,38 @@ school_and_department_service:
     years: 2019
     selected: false
 
-  - role: Chair, Web/Publicity Committee
+  - role: Chair
+    venue: Web/Publicity Committee
     years: 2023–2024
     selected: false
 
-  - role: Chair, Department Colloquium Committee
+  - role: Chair
+    venue: Department Colloquium Committee
     years: 2023–2024
     selected: false
 
-  - role: Chair, SCI Web Vision Committee
+  - role: Chair
+    venue: SCI Web Vision Committee
     years: 2019–2020
     selected: false
 
-  - role: Member, Faculty Recruiting Committee (School)
+  - role: Member
+    venue: Faculty Recruiting Committee (School)
     years: 2017–2019
     selected: false
 
-  - role: Co-Chair, Graduate Program & Exams Committee
+  - role: Co-Chair
+    venue: Graduate Program & Exams Committee
     years: 2007–2008
     selected: false
 
-  - role: Faculty Advisor, CS Web Team
+  - role: Faculty Advisor
+    venue: CS Web Team
     years: 2002–2008
     selected: false
 
-  - role: Chair, Alumni Relations Committee
+  - role: Chair
+    venue: Alumni Relations Committee
     years: 2004–2005
     selected: false
 
@@ -76,18 +92,22 @@ school_and_department_service:
     years: 2003–2005
     selected: false
 
-  - role: Member, Faculty Recruiting Committee (Department)
+  - role: Member
+    venue: Faculty Recruiting Committee (Department)
     years: 2006–2007, 2014–2015
     selected: false
 
-  - role: Member, Public Relations Committee
+  - role: Member
+    venue: Public Relations Committee
     years: 2009–2011
     selected: false
 
-  - role: Member, Undergraduate Recruiting & Advising Committee
+  - role: Member
+    venue: Undergraduate Recruiting & Advising Committee
     years: 2008–2010
     selected: false
 
-  - role: Member, Graduate Evaluation, Assignment and Training Committee
+  - role: Member
+    venue: Graduate Evaluation, Assignment and Training Committee
     years: 2002–2003
     selected: false
