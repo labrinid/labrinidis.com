@@ -348,13 +348,13 @@ program_committees:
 professional_organizations:
   - role: Secretary/Treasurer
     venue: ACM SIGMOD
-	url: https://www.sigmod.org
+    url: https://www.sigmod.org
     years: 2009–2013
     selected: true
 
   - role: Member, Executive Committee
     venue: ACM SIGMOD
-	url: https://www.sigmod.org
+    url: https://www.sigmod.org
     years: 2004–2013
     selected: false
 
@@ -365,19 +365,19 @@ professional_organizations:
 
   - role: Associate Editor
     venue: ACM SIGMOD Record
-	url: https://sigmodrecord.org/ 
+    url: https://sigmodrecord.org/ 
     years: 2001–2006
     selected: false
 
   - role: Associate Information Director
     venue: ACM SIGMOD
-	url: https://www.sigmod.org
+    url: https://www.sigmod.org
     years: 2007–2013
     selected: false
 
   - role: Information Director
     venue: ACM SIGMOD
-	url: https://www.sigmod.org
+    url: https://www.sigmod.org
     years: 2004–2006
     selected: false
 

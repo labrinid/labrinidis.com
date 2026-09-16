@@ -1,7 +1,7 @@
 university_service:
   - role: Member
     venue: HAIL Academic Advisory Committee
-	url: https://www.aihub.pitt.edu/about/hail-advisory-board
+    url: https://www.aihub.pitt.edu/about/hail-advisory-board
     years: 2026–present
     selected: true
 
