@@ -47,7 +47,7 @@ university_service:
 
 school_and_department_service:
   - role: Member
-    venue: Graduate Program and Examinations Committee (GPEC)
+    venue: Graduate Program & Exams Committee (GPEC)
     years: 2025–present
     selected: false
 
@@ -85,7 +85,7 @@ school_and_department_service:
     selected: false
 
   - role: Co-Chair
-    venue: Graduate Program & Exams Committee
+    venue: Graduate Program & Exams Committee (GPEC)
     years: 2007–2008
     selected: false
 
@@ -104,7 +104,7 @@ school_and_department_service:
     selected: false
 
   - role: Member
-    venue: Faculty Recruiting Committee (Department)
+    venue: Faculty Recruiting Committee
     years: 2006–2007, 2014–2015
     selected: false
 
