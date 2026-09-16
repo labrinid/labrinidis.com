@@ -46,19 +46,24 @@ university_service:
     selected: false
 
 school_and_department_service:
+  - role: Member
+    venue: Graduate Program and Examinations Committee (GPEC)
+    years: 2025–present
+    selected: false
+
+  - role: Member
+    venue: Faculty Recruiting Committee (REC)
+    years: 2025–2026
+    selected: false
+
   - role: Chair
-    venue: Department Colloquium Committee
+    venue: Department Colloquium Committee (COL)
     years: 2023–2026
     selected: false
 
   - role: Chair
-    venue: Web/Publicity Committee
+    venue: Web/Publicity Committee (WEB)
     years: 2023–2024
-    selected: false
-
-  - role: Chair
-    venue: Department Colloquium Committee
-    years: 2023–2026
     selected: false
 
   - role: Department Chair
@@ -70,12 +75,12 @@ school_and_department_service:
     years: 2019–2020
     selected: false
 
-  - role: Director of Graduate Studies
+  - role: Director of Graduate Studies (DGS)
     years: 2019
     selected: false
 
   - role: Member
-    venue: Faculty Recruiting Committee (School)
+    venue: SCI Faculty Recruiting Committee
     years: 2017–2019
     selected: false
 
