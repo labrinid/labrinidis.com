@@ -144,24 +144,30 @@ past:
 
     - name: Eric Gratta
       graduated: 2016
-
+      linkedin: https://www.linkedin.com/in/ercgrat/
+	  
     - name: Wen Gao
       graduated: 2014
+      linkedin: https://www.linkedin.com/in/wen-gao-cs/
 
-    - name: Tonya Groover
+    - name: Tonya Edmonds (née Groover)
       graduated: 2010
+      linkedin: https://www.linkedin.com/in/tonyaedmonds/	  
 
     - name: Jie Xu
       graduated: 2009
-
+      linkedin: https://www.linkedin.com/in/jxu01/
+	  
     - name: Aimee Pail Brown
       graduated: 2007
 
     - name: David Kleinman
       graduated: 2006
+      linkedin: https://www.linkedin.com/in/david-kleinman-8641494/ 	  
 
-    - name: Andreea Munteanu
+    - name: Andreea Berfield (née Munteanu)
       graduated: 2005
-
+      linkedin: https://www.linkedin.com/in/andreea-berfield-8482601a/
+	  
     - name: Praveena K. Rudraraju
       graduated: 2005
