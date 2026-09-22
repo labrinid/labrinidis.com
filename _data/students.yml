@@ -4,15 +4,7 @@ current:
       expected: Fall 2026
       linkedin: https://www.linkedin.com/in/evangelos-karageorgos-49305093/
 
-    - name: Xiaoting Li
-      expected: Summer 2027
-      linkedin: https://www.linkedin.com/in/xiaotingli/
-
   msc_thesis:
-    - name: Zi Han Ding
-      expected: Spring 2026
-      thesis: "An Embedding-Space Perspective Towards a Defense-in-Depth Mechanism for Prompt-to-SQL Attack (Prompt2SQLa)"
-      linkedin: https://www.linkedin.com/in/zi-han-ding-a3b97b1a6/
 
 
   msc_project:
@@ -107,6 +99,11 @@ past:
       dscholarship: https://d-scholarship.pitt.edu/9019/
 
   msc_thesis:
+    - name: Zi Han Ding
+      expected: 2026
+      thesis: "An Embedding-Space Perspective Towards a Defense-in-Depth Mechanism for Prompt-to-SQL Attack (Prompt2SQLa)"
+      linkedin: https://www.linkedin.com/in/zi-han-ding-a3b97b1a6/
+
     - name: Kristin Bushman
       graduated: 2021
       thesis: Using Visualization and Integer Linear Programming for University Class Scheduling
