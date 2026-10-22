@@ -138,7 +138,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-14-triblive-ai-risks/";
-            },},{id: "projects-project-1",
+            },},{id: "news-my-triblive-interview-on-the-risks-of-ai-was-mentioned-in-the-researchers-in-the-news-section-of-the-october-2026-issue-of-inside-pitt-research-pitt-research-s-monthly-newsletter",
+          title: 'My TribLive interview on the risks of AI was mentioned in the “Researchers...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
