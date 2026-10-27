@@ -100,7 +100,7 @@ past:
 
   msc_thesis:
     - name: Zi Han Ding
-      expected: 2026
+      graduated: 2026
       thesis: "An Embedding-Space Perspective Towards a Defense-in-Depth Mechanism for Prompt-to-SQL Attack (Prompt2SQLa)"
       dscholarship: https://d-scholarship.pitt.edu/concern/etds/bda7eccc-85cc-4cf6-b039-6df4b643f6f7
       linkedin: https://www.linkedin.com/in/zi-han-ding-a3b97b1a6/
